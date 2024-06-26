@@ -36,7 +36,7 @@ def is_valid_country(converted_str):
         return True
     else:
         log.error(f"Invalid country code - {converted_str[:2]}. Valid country codes are= {VALID_COUNTRY_LIST}")
-        raise Exception(f"Invalid country code - {converted_str[:2]}. Valid country codes are= {VALID_COUNTRY_LIST}")
+        raise Exception(f"Error:-Invalid country code - {converted_str[:2]}. Valid country codes are= {VALID_COUNTRY_LIST}")
 
 
 def is_mobile_length_valid(converted_str):
@@ -51,7 +51,7 @@ def is_mobile_length_valid(converted_str):
         return True
     else:
         log.error(f"Invalid Mobile number length {len(converted_str)}. Valid length is 12")
-        raise Exception(f"Invalid Mobile number length {len(converted_str)}. Valid length is 12")
+        raise Exception(f"Error:-Invalid Mobile number length {len(converted_str)}. Valid length is 12")
 
 
 def is_valid_type(mobile):
@@ -64,7 +64,7 @@ def is_valid_type(mobile):
         return True
     else:
         log.error(f"Invalid mobile number type - {type(mobile)}")
-        raise Exception(f"Invalid mobile number type - {type(mobile)}")
+        raise Exception(f"Error:-Invalid mobile number type - {type(mobile)}")
 
 
 def is_valid_mobile(mobile):
@@ -95,13 +95,13 @@ def is_valid_name(name, mobile):
         pass
     else:
         log.error(f"User name cannot be {len(name)} character for user mobile -{mobile}")
-        raise Exception(f"User name cannot be {len(name)} character for user mobile -{mobile}")
+        raise ValueError(f"Error:-User name cannot be {len(name)} character for user mobile -{mobile}")
 
     if name.isalpha():
         pass
     else:
         log.error(f"User name {name} must be str only user mobile -{mobile}")
-        raise Exception(f"User name {name} must be str only user mobile -{mobile}")
+        raise ValueError(f"Error:-User name {name} must be str only user mobile -{mobile}")
     return True
 
 
@@ -118,7 +118,7 @@ def is_valid_dob(dob, name):
         return True
     except ValueError:
         log.error(f'User={name},entered wrong format of DOB')
-        raise ValueError(f'User={name},entered wrong format of DOB')
+        raise ValueError(f'Error:-User={name},entered wrong format of DOB')
 
 
 def is_valid_gender(gender, name):
@@ -131,7 +131,7 @@ def is_valid_gender(gender, name):
         return True
     else:
         log.error(f'User={name} entered invalid gender = {gender}')
-        raise Exception(f'User={name} entered invalid gender = {gender}')
+        raise Exception(f'Error:-User={name} entered invalid gender = {gender}')
 
 
 def is_valid_record(record):

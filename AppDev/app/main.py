@@ -37,7 +37,7 @@ def new_record(record):
     log.info(f'{record["mobile"]} --> new_record function ended...')
 
 
-print(new_record({"mobile": 454234234245, "name": "kumar", "gender": "M", "dob": "2003-3-12", "company": "KXN"}))
+print(new_record({"mobile": 454234234245, "name": "kumar", "gender": "M", "dob": "21-2-2001", "company": "KXN"}))
 # GET
 print(new_record({"mobile": 919000070128, "name": "Kajal", "gender": "F", "dob": "2001-2-2", "company": "APD"}))
 # GET
@@ -50,26 +50,32 @@ def update_record(DATA):
     This function update full records in DATA
     :param DATA: dict    :return DATA: dict
     """
+    try:
+        for item in range(len(DATA["records"])):
+            log.info(f'{DATA["records"][item]["mobile"]} --> update_record function has started...')
+            current_record = DATA["records"][item]
+            mobile = current_record["mobile"]
+            company = current_record["company"]
+            log.info(f'"message:-Modifying {item + 1} record"')
+            print(f'Updating {item+1} record:-')
 
-    for item in range(len(DATA["records"])):
-        log.info(f'{DATA["records"][item]["mobile"]} --> update_record function has started...')
-        current_record = DATA["records"][item]
-        mobile = current_record["mobile"]
+            Name = input(f"Enter name for {item + 1} record:- ")
+            Gender = input(f'Enter the gender for {item + 1} record:-')
+            Company = input(f"Enter company name for {item + 1} record:- ")
+            log.info(f'"message:- Previous record of {item + 1} is :-" {DATA["records"][item]}')
 
-        log.info(f'"message:-Modifying {item + 1} record"')
-        print(f'Updating {item+1} record:-')
+            if is_valid_name(Name, mobile):
+                if is_valid_gender(Gender, Name):
+                    current_record["name"] = Name
+                    current_record["gender"] = Gender
+                    current_record["company"] = Company
+                    log.info(f'"message:-" "Modified {item + 1} record is ":-{DATA["records"][item]}')
+                    log.info(f'updated record is = {DATA}')
+    except ValueError as err:
+        print(err)
 
-        Name = input(f"Enter name for {item + 1} record:- ")
-        Gender = input(f'Enter the gender for {item + 1} record:-')
-        DATA["records"][item]["company"] = input(f"Enter company name for {item + 1} record:- ")
-        log.info(f'"message:- Previous record of {item + 1} is :-" {DATA["records"][item]}')
-
-        if is_valid_name(Name, mobile):
-            if is_valid_gender(Gender, Name):
-                current_record["name"] = Name
-                current_record["gender"] = Gender
-                log.info(f'"message:-" "Modified {item + 1} record is ":-{DATA["records"][item]}')
-    log.info(f'updated record is = {DATA}')
+    except Exception as err:
+        print(err)
     log.info(f'update_record function has ended...')
     return DATA
 
@@ -84,16 +90,19 @@ def partial_update_record(DATA):
     This function is used for partial update of records in DATA
     :param DATA: dict    :return DATA:  dict
     """
-    for item in range(len(DATA["records"])):
-        log.info(f'{DATA["records"][item]["mobile"]} --> partial_update_record function has started...')
-        log.info(f'"message:-" "Partial Modifying {item + 1} record"')
-        print(f'Partially updating {item+1} record:-')
+    try:
+        for item in range(len(DATA["records"])):
+            log.info(f'{DATA["records"][item]["mobile"]} --> partial_update_record function has started...')
+            log.info(f'"message:-" "Partial Modifying {item + 1} record"')
+            print(f'Partially updating {item+1} record:-')
 
-        DATA["records"][item]["name"] = input(f"Enter name for {item + 1} record:- ")
-        if is_valid_name(DATA["records"][item]["name"], DATA["records"][item]["mobile"]):
-            pass
+            Name = input(f"Enter name for {item + 1} record:- ")
+            if is_valid_name(Name, DATA["records"][item]["mobile"]):
+                DATA["records"][item]["name"] = Name
 
-        log.info(f'"message:-" "Partial Modified {item + 1} record is ":-{DATA["records"][item]}')
+            log.info(f'"message:-" "Partial Modified {item + 1} record is ":-{DATA["records"][item]}')
+    except Exception as err:
+        print(err)
     log.info(f"Saved Record={DATA}")
     log.info("partial_update_record function has ended...")
     return f"partially updated saved record are={DATA}"
@@ -126,3 +135,5 @@ def delete_record(DATA):
 
 
 print(delete_record(DATA))
+
+print(f'After performing all HTTP methods, Saved records is = {DATA}')
