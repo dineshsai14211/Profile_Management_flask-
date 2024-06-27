@@ -145,3 +145,30 @@ def is_valid_record(record):
             if is_valid_dob(record["dob"], record["name"]):
                 if is_valid_gender(record["gender"], record["name"]):
                     return True
+
+
+def authenticate_user(name):
+    """
+
+    :param name:
+    :return:
+    """
+    if name in USERS or name in ADMINS:
+        log.info(f"User={name} authentication successfull")
+        print(f"User {name} authenticated successfully - meaning basic info verified ")
+        return True
+    return False
+
+
+def create_user_info(role):
+    user = input(f"Enter username:")
+    # Mandatory
+    name = input(f"Enter Name:")
+    initial = input(f"Enter first character of surname:")
+    dept = input(f"Enter the department:")
+    dob = input(f"Enter the DOB:")
+    if role == "normal":
+        admin = False
+    elif role == "admin":
+        admin = True
+    return {"username": user, "name": name+"."+initial, "dept": dept, "dob": dob, "isadmin": admin}
