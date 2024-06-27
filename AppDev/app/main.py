@@ -16,7 +16,7 @@ def create_user(name, role=None):
     """
     try:
         if not authenticate_user(name):
-            log.warning(f"User {name} doesn't have permission to create")
+            log.warning(f"Unauthorized User={name}, trying to access the application...")
             raise Exception(f"UnAuthorised user {name} trying to access the application")
 
         # Authorisation
