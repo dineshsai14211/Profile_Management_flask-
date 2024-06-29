@@ -113,3 +113,52 @@
 2024-06-27 22:36:22,797 - INFO - delete_record function has started...
 2024-06-27 22:36:26,374 - ERROR - User=John.W entered incorrect format for mobile=<class 'str'>
 2024-06-27 22:36:28,282 - INFO - Entered Option=7 Exited..
+2024-06-29 17:42:49,717 - INFO - Saved records = {'records': []}
+2024-06-29 17:42:55,701 - INFO - Entered name of user is = John.W
+2024-06-29 17:42:55,701 - INFO - User=John.W is an admin, having Admin properties
+2024-06-29 17:43:06,561 - INFO - Entered Option=2 "Create New_record"
+2024-06-29 17:43:06,561 - INFO - create_new_record function started...
+2024-06-29 17:43:06,561 - INFO - 454234234245 --> create_new_record function started...
+2024-06-29 17:43:06,561 - INFO - Mobile number=454234234245 verification is successful
+2024-06-29 17:43:06,581 - ERROR - User=kumar,entered wrong format of DOB
+2024-06-29 17:43:06,581 - INFO - 454234234245 --> create_new_record function ended...
+2024-06-29 17:43:06,582 - INFO - create_new_record function started...
+2024-06-29 17:43:06,582 - INFO - 919000070128 --> create_new_record function started...
+2024-06-29 17:43:06,582 - INFO - Mobile number=919000070128 verification is successful
+2024-06-29 17:43:06,582 - INFO - Record added successfully :- {'records': [{'mobile': 919000070128, 'name': 'Kajal', 'gender': 'F', 'dob': '2001-2-2', 'company': 'APD'}]}
+2024-06-29 17:43:10,524 - INFO - Entered Option=7 Exited..
+2024-06-29 21:04:46,481 - INFO - Saved records = {'records': []}
+2024-06-29 21:04:54,267 - INFO - Entered name of user is = dinesh
+2024-06-29 21:04:54,267 - WARNING - Unauthorized User=dinesh, trying to access the application...
+2024-06-29 21:34:52,762 - INFO - Saved records = {'records': []}
+2024-06-29 21:35:00,182 - INFO - Entered name of user is = dinesh
+2024-06-29 21:35:00,183 - WARNING - Unauthorized User=dinesh, trying to access the application...
+2024-06-29 21:35:18,331 - INFO - Saved records = {'records': []}
+2024-06-29 21:35:24,928 - INFO - Entered name of user is = John.W
+2024-06-29 21:35:24,928 - INFO - User=John.W is an admin, having Admin properties
+2024-06-29 21:35:28,218 - INFO - Entered Option=2 "Create New_record"
+2024-06-29 21:35:28,218 - INFO - create_new_record function started...
+2024-06-29 21:35:28,218 - INFO - 454234234245 --> create_new_record function started...
+2024-06-29 21:35:28,219 - INFO - Mobile number=454234234245 verification is successful
+2024-06-29 21:35:28,225 - ERROR - User=kumar,entered wrong format of DOB
+2024-06-29 21:35:28,225 - INFO - 454234234245 --> create_new_record function ended...
+2024-06-29 21:35:28,225 - INFO - create_new_record function started...
+2024-06-29 21:35:28,225 - INFO - 919000070128 --> create_new_record function started...
+2024-06-29 21:35:28,225 - INFO - Mobile number=919000070128 verification is successful
+2024-06-29 21:35:28,225 - INFO - Record added successfully :- {'records': [{'mobile': 919000070128, 'name': 'Kajal', 'gender': 'F', 'dob': '2001-2-2', 'company': 'APD'}]}
+2024-06-29 21:35:41,722 - INFO - Entered Option=6 "Read Record"
+2024-06-29 21:35:41,722 - INFO - Saved Record = {'records': [{'mobile': 919000070128, 'name': 'Kajal', 'gender': 'F', 'dob': '2001-2-2', 'company': 'APD'}]}
+2024-06-29 21:35:54,548 - INFO - Entered Option=3 "Update Record"
+2024-06-29 21:35:54,548 - INFO - 919000070128 --> update_record function has started...
+2024-06-29 21:35:54,548 - INFO - "message:-Modifying 1 record"
+2024-06-29 21:36:03,856 - INFO - "message:- Previous record of 1 is :-" {'mobile': 919000070128, 'name': 'Kajal', 'gender': 'F', 'dob': '2001-2-2', 'company': 'APD'}
+2024-06-29 21:36:03,856 - INFO - "message:-" "Modified 1 record is ":-{'mobile': 919000070128, 'name': 'ANu', 'gender': 'F', 'dob': '2001-2-2', 'company': 'Dell'}
+2024-06-29 21:36:03,856 - INFO - updated record is = {'records': [{'mobile': 919000070128, 'name': 'ANu', 'gender': 'F', 'dob': '2001-2-2', 'company': 'Dell'}]}
+2024-06-29 21:36:03,856 - INFO - update_record function has ended...
+2024-06-29 21:36:12,473 - INFO - Entered Option=7 Exited..
+2024-06-29 21:36:22,472 - INFO - Saved records = {'records': []}
+2024-06-29 21:36:34,368 - INFO - Entered name of user is = kumar.M
+2024-06-29 21:36:34,369 - INFO - User=kumar.M is a user, having User properties
+2024-06-29 21:36:37,407 - INFO - Entered Option=2 "Read Record"
+2024-06-29 21:36:42,459 - INFO - Saved Record = {'records': []}
+2024-06-29 21:36:44,066 - INFO - Entered Option=3 "Exited"

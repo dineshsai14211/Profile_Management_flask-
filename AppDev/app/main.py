@@ -4,8 +4,10 @@ addition, modification, partial updates, and deletion of records.
 The records include details such as mobile number, name, gender, date of birth, and company.
 
 """
+
 from constants import *
 from utilis.utility import *
+from app.email.email_constants import *
 
 
 def create_user(name, role=None):
@@ -16,7 +18,7 @@ def create_user(name, role=None):
     """
     try:
         if not authenticate_user(name):
-            log.warning(f"Unauthorized User={name}, trying to access the application...")
+            log.warning(f"User {name} doesn't have permission to create")
             raise Exception(f"UnAuthorised user {name} trying to access the application")
 
         # Authorisation
@@ -184,6 +186,8 @@ elif name in USERS:
     log.info(f"User={name} is a user, having User properties")
 else:
     log.warning(f"Unauthorized User={name}, trying to access the application...")
+    send_email([members for members in receivers], UNAUTHENTICATED_MESSAGE)
+    print("Email is sent to respective team members")
     print(f"Unauthorized User={name}, trying to access the application...")
     exit()
 
@@ -194,24 +198,30 @@ while True:
         if options == 1:
             log.info(f'Entered Option=1 "Create User"')
             create_user(name)
+            send_email([members for members in receivers],CREATE_USER)
         elif options == 2:
             log.info(f'Entered Option=2 "Create New_record"')
             print(create_new_record(
                 {"mobile": 454234234245, "name": "kumar", "gender": "M", "dob": "21-2-2001", "company": "KXN"}))
             print(create_new_record(
                 {"mobile": 919000070128, "name": "Kajal", "gender": "F", "dob": "2001-2-2", "company": "APD"}))
+            send_email([members for members in receivers], CREATE_USER)
         elif options == 3:
             log.info(f'Entered Option=3 "Update Record"')
             print("Updated Records are=", update_record(DATA))
+            send_email([members for members in receivers], UPDATE_MESSAGE)
         elif options == 4:
             log.info(f'Entered Option=4 "Partially Update Record"')
             print(partial_update_record(DATA))
+            send_email([members for members in receivers], PARTIAL_UPDATE)
         elif options == 5:
             log.info(f'Entered Option=5 "Delete Record"')
             print(delete_record(DATA))
+            send_email([members for members in receivers], DELETE_MESSAGE)
         elif options == 6:
             log.info(f'Entered Option=6 "Read Record"')
             read_records()
+            send_email([members for members in receivers], GET_ALL_MESSAGE)
         elif options == 7:
             log.info(f'Entered Option=7 Exited..')
             cond = False
@@ -223,12 +233,14 @@ while True:
                 f"Which Operation you need to perform \n1)create_user \n2)create_new_record \n3)update_record \n4)partial_update_record \n5)delete_record \n6)read_records 7)Exit \n Choose from above option:- "))
 
     elif name in USERS:
-        options = int(input(f'Which operation need to perform \n1)Create User \n2)Read Records \n3)Exit \n Choose from above options :- '))
+        options = int(input(
+            f'Which operation need to perform \n1)Create User \n2)Read Records \n3)Exit \n Choose from above options :- '))
         if options == 1:
             log.info(f'Entered Option=1 "Create User"')
             create_user(name)
         elif options == 2:
             log.info(f'Entered Option=2 "Read Record"')
+            send_email([members for members in receivers], GET_ALL_MESSAGE)
             read_records()
         elif options == 3:
             log.info(f'Entered Option=3 "Exited"')
