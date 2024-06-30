@@ -1,0 +1,123 @@
+2024-06-30 19:49:15,579 - INFO - Entered name of user is = John.W
+2024-06-30 19:49:15,579 - INFO - User=John.W is an admin, having Admin properties
+2024-06-30 19:49:18,453 - INFO - Entered Option=1 "Create User"
+2024-06-30 19:49:18,453 - INFO - User=John.W authentication successfull
+2024-06-30 19:49:18,453 - INFO - User John.W admin authorization is successfull
+2024-06-30 19:49:58,211 - INFO - Entered Option=4 "delete record"
+2024-06-30 19:49:58,212 - INFO - delete_record function has started...
+2024-06-30 19:50:07,174 - INFO - Deleted the donlee.L record...
+2024-06-30 19:50:11,042 - INFO - Entered Option=5 "Read Record"
+2024-06-30 19:50:11,043 - INFO - Saved Record = {'records': [{'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}]}
+2024-06-30 20:30:58,062 - INFO - Entered name of user is = donlee
+2024-06-30 20:30:58,068 - WARNING - Unauthorized User=donlee, trying to access the application...
+2024-06-30 20:32:03,828 - INFO - Entered name of user is = kumar.M
+2024-06-30 20:32:03,828 - INFO - User=kumar.M is a user, having User properties
+2024-06-30 20:32:06,501 - INFO - Entered Option=1 "Create User"
+2024-06-30 20:32:06,502 - INFO - User=kumar.M authentication successfull
+2024-06-30 20:32:06,502 - ERROR - User=kumar.M does not have create user profile permission
+2024-06-30 20:32:09,261 - INFO - Entered Option=2 "Update your record"
+2024-06-30 20:32:14,231 - INFO - update_user_record function has started....
+2024-06-30 20:32:14,232 - INFO - user=kumar.M data is in records
+2024-06-30 20:32:42,847 - INFO - Before updating the record = {'records': [{'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}]}
+2024-06-30 20:32:42,847 - INFO - After user updated his record = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}]}
+2024-06-30 20:32:42,847 - INFO - update_user_record function has ended...
+2024-06-30 20:32:48,193 - INFO - Entered Option=3 "Read record"
+2024-06-30 20:32:48,193 - INFO - Saved Record = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}]}
+2024-06-30 20:32:58,287 - INFO - Entered Option=4 "Exit"
+2024-06-30 20:33:51,717 - INFO - Entered name of user is = John.W
+2024-06-30 20:33:51,718 - INFO - User=John.W is an admin, having Admin properties
+2024-06-30 20:33:53,902 - INFO - Entered Option=1 "Create User"
+2024-06-30 20:33:53,902 - INFO - User=John.W authentication successfull
+2024-06-30 20:33:53,902 - INFO - User John.W admin authorization is successfull
+2024-06-30 20:34:24,691 - INFO - Admin John.W has created the admin user
+2024-06-30 20:34:36,316 - INFO - Entered Option=5 "Read Record"
+2024-06-30 20:34:36,317 - INFO - Saved Record = {'records': [{'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}, {'username': 'donlee123', 'name': 'donlee.L', 'dept': 'TST', 'dob': '2001-1-1', 'gender': 'M', 'isadmin': True}]}
+2024-06-30 20:35:00,940 - INFO - Entered Option=2 "Update Record"
+2024-06-30 20:35:00,940 - INFO - kumar.M--> update_record function has started...
+2024-06-30 20:35:00,940 - INFO - "message:-Modifying 1 record"
+2024-06-30 20:35:14,924 - INFO - "message:- Previous record of 1 is :-" {'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}
+2024-06-30 20:35:14,926 - INFO - "message:-" "Modified 1 record is ":-{'username': 'makala', 'name': 'makala', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}
+2024-06-30 20:35:14,926 - INFO - updated record is = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}, {'username': 'donlee123', 'name': 'donlee.L', 'dept': 'TST', 'dob': '2001-1-1', 'gender': 'M', 'isadmin': True}]}
+2024-06-30 20:35:14,926 - INFO - dinesh.A--> update_record function has started...
+2024-06-30 20:35:14,926 - INFO - "message:-Modifying 2 record"
+2024-06-30 20:35:30,186 - INFO - "message:- Previous record of 2 is :-" {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}
+2024-06-30 20:35:30,186 - INFO - "message:-" "Modified 2 record is ":-{'username': 'sai', 'name': 'sai', 'dept': 'PROD', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}
+2024-06-30 20:35:30,188 - INFO - updated record is = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'sai', 'name': 'sai', 'dept': 'PROD', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}, {'username': 'donlee123', 'name': 'donlee.L', 'dept': 'TST', 'dob': '2001-1-1', 'gender': 'M', 'isadmin': True}]}
+2024-06-30 20:35:30,188 - INFO - donlee.L--> update_record function has started...
+2024-06-30 20:35:30,188 - INFO - "message:-Modifying 3 record"
+2024-06-30 20:35:57,753 - INFO - "message:- Previous record of 3 is :-" {'username': 'donlee123', 'name': 'donlee.L', 'dept': 'TST', 'dob': '2001-1-1', 'gender': 'M', 'isadmin': True}
+2024-06-30 20:35:57,753 - INFO - "message:-" "Modified 3 record is ":-{'username': 'johnwick', 'name': 'johnwick', 'dept': 'TST', 'dob': '2001-1-1', 'gender': 'M', 'isadmin': True}
+2024-06-30 20:35:57,753 - INFO - updated record is = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'sai', 'name': 'sai', 'dept': 'PROD', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}, {'username': 'johnwick', 'name': 'johnwick', 'dept': 'TST', 'dob': '2001-1-1', 'gender': 'M', 'isadmin': True}]}
+2024-06-30 20:35:57,753 - INFO - update_record function has ended...
+2024-06-30 20:36:07,538 - INFO - Entered Option=5 "Read Record"
+2024-06-30 20:36:07,538 - INFO - Saved Record = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'sai', 'name': 'sai', 'dept': 'PROD', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}, {'username': 'johnwick', 'name': 'johnwick', 'dept': 'TST', 'dob': '2001-1-1', 'gender': 'M', 'isadmin': True}]}
+2024-06-30 20:36:17,061 - INFO - Entered Option=4 "delete record"
+2024-06-30 20:36:17,061 - INFO - delete_record function has started...
+2024-06-30 20:36:26,769 - INFO - delete_record function has ended....
+2024-06-30 21:14:33,187 - INFO - Entered name of user is = John.W
+2024-06-30 21:14:33,188 - INFO - User=John.W is an admin, having Admin properties
+2024-06-30 21:14:36,351 - INFO - Entered Option=1 "Create User"
+2024-06-30 21:14:36,351 - INFO - User=John.W authentication successfull
+2024-06-30 21:14:36,351 - INFO - User John.W admin authorization is successfull
+2024-06-30 21:14:56,394 - INFO - Admin John.W has created the admin user
+2024-06-30 21:15:05,654 - INFO - Entered Option=5 "Read Record"
+2024-06-30 21:15:05,654 - INFO - Saved Record = {'records': [{'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}, {'username': 'donlee', 'name': 'donlee.L', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': True}]}
+2024-06-30 21:15:26,736 - INFO - Entered Option=2 "Update Record"
+2024-06-30 21:15:26,737 - INFO - kumar.M--> update_record function has started...
+2024-06-30 21:15:26,737 - INFO - "message:-Modifying 1 record"
+2024-06-30 21:15:40,933 - INFO - "message:- Previous record of 1 is :-" {'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}
+2024-06-30 21:15:40,933 - INFO - "message:-" "Modified 1 record is ":-{'username': 'makala', 'name': 'makala', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}
+2024-06-30 21:15:40,933 - INFO - updated record is = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}, {'username': 'donlee', 'name': 'donlee.L', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': True}]}
+2024-06-30 21:15:40,933 - INFO - dinesh.A--> update_record function has started...
+2024-06-30 21:15:40,933 - INFO - "message:-Modifying 2 record"
+2024-06-30 21:15:59,621 - INFO - "message:- Previous record of 2 is :-" {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}
+2024-06-30 21:15:59,621 - INFO - "message:-" "Modified 2 record is ":-{'username': 'sai', 'name': 'sai', 'dept': 'TST', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}
+2024-06-30 21:15:59,621 - INFO - updated record is = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'sai', 'name': 'sai', 'dept': 'TST', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}, {'username': 'donlee', 'name': 'donlee.L', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': True}]}
+2024-06-30 21:15:59,621 - INFO - donlee.L--> update_record function has started...
+2024-06-30 21:15:59,621 - INFO - "message:-Modifying 3 record"
+2024-06-30 21:16:21,085 - INFO - "message:- Previous record of 3 is :-" {'username': 'donlee', 'name': 'donlee.L', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': True}
+2024-06-30 21:16:21,085 - INFO - "message:-" "Modified 3 record is ":-{'username': 'lee', 'name': 'lee', 'dept': 'OPR', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': True}
+2024-06-30 21:16:21,085 - INFO - updated record is = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'sai', 'name': 'sai', 'dept': 'TST', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}, {'username': 'lee', 'name': 'lee', 'dept': 'OPR', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': True}]}
+2024-06-30 21:16:21,085 - INFO - update_record function has ended...
+2024-06-30 21:16:34,970 - INFO - Entered Option=5 "Read Record"
+2024-06-30 21:16:34,970 - INFO - Saved Record = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'sai', 'name': 'sai', 'dept': 'TST', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}, {'username': 'lee', 'name': 'lee', 'dept': 'OPR', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': True}]}
+2024-06-30 21:17:17,538 - INFO - Entered name of user is = John,W
+2024-06-30 21:17:17,538 - WARNING - Unauthorized User=John,W, trying to access the application...
+2024-06-30 21:17:37,129 - INFO - Entered name of user is = John.W
+2024-06-30 21:17:37,130 - INFO - User=John.W is an admin, having Admin properties
+2024-06-30 21:17:39,814 - INFO - Entered Option=1 "Create User"
+2024-06-30 21:17:39,814 - INFO - User=John.W authentication successfull
+2024-06-30 21:17:39,814 - INFO - User John.W admin authorization is successfull
+2024-06-30 21:17:58,619 - INFO - Admin John.W has created the admin user
+2024-06-30 21:18:11,688 - INFO - Entered Option=2 "Update Record"
+2024-06-30 21:18:11,688 - INFO - kumar.M--> update_record function has started...
+2024-06-30 21:18:11,689 - INFO - "message:-Modifying 1 record"
+2024-06-30 21:18:25,109 - INFO - "message:- Previous record of 1 is :-" {'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}
+2024-06-30 21:18:25,110 - INFO - "message:-" "Modified 1 record is ":-{'username': 'makala', 'name': 'makala', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}
+2024-06-30 21:18:25,110 - INFO - updated record is = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}, {'username': 'donglee', 'name': 'donglee.L', 'dept': 'TST', 'dob': '2002-2-2', 'gender': 'M', 'isadmin': True}]}
+2024-06-30 21:18:25,110 - INFO - dinesh.A--> update_record function has started...
+2024-06-30 21:18:25,110 - INFO - "message:-Modifying 2 record"
+2024-06-30 21:18:37,789 - INFO - "message:- Previous record of 2 is :-" {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}
+2024-06-30 21:18:37,789 - INFO - "message:-" "Modified 2 record is ":-{'username': 'sai', 'name': 'sai', 'dept': 'OPR', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}
+2024-06-30 21:18:37,790 - INFO - updated record is = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'sai', 'name': 'sai', 'dept': 'OPR', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}, {'username': 'donglee', 'name': 'donglee.L', 'dept': 'TST', 'dob': '2002-2-2', 'gender': 'M', 'isadmin': True}]}
+2024-06-30 21:18:37,790 - INFO - donglee.L--> update_record function has started...
+2024-06-30 21:18:37,790 - INFO - "message:-Modifying 3 record"
+2024-06-30 21:19:22,846 - INFO - "message:- Previous record of 3 is :-" {'username': 'donglee', 'name': 'donglee.L', 'dept': 'TST', 'dob': '2002-2-2', 'gender': 'M', 'isadmin': True}
+2024-06-30 21:19:22,846 - INFO - "message:-" "Modified 3 record is ":-{'username': 'lee', 'name': 'lee', 'dept': 'OPR', 'dob': '2002-2-2', 'gender': 'M', 'isadmin': True}
+2024-06-30 21:19:22,846 - INFO - updated record is = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'sai', 'name': 'sai', 'dept': 'OPR', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}, {'username': 'lee', 'name': 'lee', 'dept': 'OPR', 'dob': '2002-2-2', 'gender': 'M', 'isadmin': True}]}
+2024-06-30 21:19:22,846 - INFO - update_record function has ended...
+2024-06-30 21:19:33,555 - INFO - Entered Option=5 "Read Record"
+2024-06-30 21:19:33,555 - INFO - Saved Record = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'sai', 'name': 'sai', 'dept': 'OPR', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}, {'username': 'lee', 'name': 'lee', 'dept': 'OPR', 'dob': '2002-2-2', 'gender': 'M', 'isadmin': True}]}
+2024-06-30 21:19:50,529 - INFO - Entered Option=4 "delete record"
+2024-06-30 21:19:50,530 - INFO - delete_record function has started...
+2024-06-30 21:19:59,386 - INFO - Deleted the lee record...
+2024-06-30 21:19:59,387 - INFO - delete_record function has ended....
+2024-06-30 21:20:07,550 - INFO - Entered Option=5 "Read Record"
+2024-06-30 21:20:07,550 - INFO - Saved Record = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'APP', 'dob': '2001-2-2', 'gender': 'M', 'isadmin': False}, {'username': 'sai', 'name': 'sai', 'dept': 'OPR', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}]}
+2024-06-30 21:20:24,918 - INFO - Entered Option=4 "delete record"
+2024-06-30 21:20:24,919 - INFO - delete_record function has started...
+2024-06-30 21:20:41,697 - INFO - Deleted the makala record...
+2024-06-30 21:20:41,697 - INFO - delete_record function has ended....
+2024-06-30 21:20:55,362 - INFO - Entered Option=5 "Read Record"
+2024-06-30 21:20:55,363 - INFO - Saved Record = {'records': [{'username': 'sai', 'name': 'sai', 'dept': 'OPR', 'dob': '2001-2-3', 'gender': 'M', 'isadmin': False}]}
+2024-06-30 21:21:27,807 - INFO - Entered Option=6 "Exit"
