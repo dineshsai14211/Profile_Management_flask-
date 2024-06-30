@@ -33,6 +33,11 @@ Hlo team
 ALERT:-Unauthenticated user, trying to access the application
 check logs
 """
+UPDATE_USER_RECORD = """
+Hlo team
+User has updated his profile
+Thank yoy
+"""
 
 
 # print("This is smtp_port---", SMTP_PORT)
