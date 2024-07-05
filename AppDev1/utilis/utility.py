@@ -1,6 +1,7 @@
 from app.constants import *
 from datetime import datetime
 import logging as log
+import re
 
 log.basicConfig(filename="log/app.log", filemode="a", level=log.DEBUG,
                 format="%(asctime)s - %(levelname)s - %(message)s")
@@ -12,7 +13,7 @@ def is_valid_name(name):
     :param name: str
     :return: bool
     """
-    name = name.replace(".","").replace(" ", "").replace("_", "")
+    name = name.replace(".", "").replace(" ", "").replace("_", "")
     if len(name) > 2:
         pass
     else:
@@ -56,6 +57,27 @@ def is_valid_gender(gender, name):
         raise Exception(f'Error:-User={name} has invalid gender = {gender}')
 
 
+def is_valid_password(password):
+
+    if len(password) < 6:
+        log.error(f"Length of password should not be less than 6")
+        raise Exception(f"Length of password should not be less than 6")
+
+    patterns = {
+        "uppercase": r'[A-Z]',
+        "lowercase": r'[a-z]',
+        "digit": r'\d',
+        "special": r'\W'
+    }
+
+    for name, pattern in patterns.items():
+        if not re.search(pattern, password):
+            log.error(f"Password {password} doesn't contain {name} character")
+            raise Exception(f"Password {password} doesn't contain {name} character")
+
+    return True
+
+
 def is_valid_record(record):
     """
     This function is for validating a new record for inserting in to DATA
@@ -66,7 +88,8 @@ def is_valid_record(record):
     if is_valid_name(record["name"]):
         if is_valid_dob(record["dob"], record["name"]):
             if is_valid_gender(record["gender"], record["name"]):
-                return True
+                if is_valid_password(record["password"]):
+                    return True
 
 
 def authenticate_user(name):
@@ -90,9 +113,10 @@ def create_user_info(role):
     dept = input(f"Enter the department:")
     dob = input(f"Enter the DOB:")
     gender = input(f"Enter the gender:")
+    password = input(f'Enter the password that contains one Upper,lower,digit,special char = ')
     if role == "normal":
         admin = False
     elif role == "admin":
         admin = True
     return {"username": user, "name": name + "." + initial, "dept": dept, "dob": dob, "gender": gender,
-            "isadmin": admin}
+            "password": password, "isadmin": admin}
