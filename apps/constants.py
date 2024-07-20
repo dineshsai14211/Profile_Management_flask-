@@ -25,23 +25,23 @@ PASSWORD = "izdlrkcuyzrlwxec"
 
 DELETE_MESSAGE = """
 Hlo Team,\n
-Admin={} has deleted user {} Record in DATA
+Admin has deleted user {} Record in DATA
 Thank you 
 """
 UPDATE_MESSAGE = """
 Hlo Team,\n
-Admin={} has updated user={} record.
+Admin has updated user={} record.
 Record = {}\n
 Thank You
 """
 GET_ALL_MESSAGE = """
 Hlo Team,\n
-User={} , is checking all users information from the table.\n
+User, is checking all users information from the table.\n
 Thank You
 """
 PARTIAL_UPDATE = """
 Hlo Team\n
-Admin={} has partially updated the user={} records in DATA.\n
+Admin has partially updated the user={} records in DATA.\n
 Partially updated user record = {}\n
 Thank you
 """
@@ -64,11 +64,16 @@ Thank You
 """
 RESET_PASSWORD = """
 Hlo Team\n
-Admin={} has reseted the user={} password\n
+Admin has reseted the user={} password\n
 Thank You
 """
 CHECK_USER_INFO = """
 Hlo Team,\n
-Admin={} checking user={} information.\n
+Admin checking user={} information.\n
+Thank You
+"""
+USER_INFO = """
+Hlo Team,\n
+User={} checking his information.\n
 Thank You
 """

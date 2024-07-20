@@ -570,3 +570,344 @@
 2024-07-09 20:30:01,069 - INFO - reset_password function has ended...
 2024-07-09 20:30:22,239 - INFO - Entered Option=8 "Exit"
 2024-07-09 20:30:22,239 - INFO - Exiting the program
+2024-07-20 17:54:47,826 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 17:54:47,826 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 17:54:47,832 - INFO -  * Restarting with stat
+2024-07-20 17:54:48,260 - WARNING -  * Debugger is active!
+2024-07-20 17:54:48,271 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 17:54:56,692 - INFO - 127.0.0.1 - - [20/Jul/2024 17:54:56] "[33mGET / HTTP/1.1[0m" 404 -
+2024-07-20 17:54:56,799 - INFO - 127.0.0.1 - - [20/Jul/2024 17:54:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-20 17:55:10,225 - INFO - 127.0.0.1 - - [20/Jul/2024 17:55:10] "[35m[1mGET /create_user?Donlee.L HTTP/1.1[0m" 500 -
+2024-07-20 17:55:10,595 - INFO - 127.0.0.1 - - [20/Jul/2024 17:55:10] "GET /create_user?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-07-20 17:55:10,601 - INFO - 127.0.0.1 - - [20/Jul/2024 17:55:10] "GET /create_user?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-07-20 17:55:10,982 - INFO - 127.0.0.1 - - [20/Jul/2024 17:55:10] "GET /create_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-07-20 17:55:11,229 - INFO - 127.0.0.1 - - [20/Jul/2024 17:55:11] "[36mGET /create_user?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-07-20 17:57:11,839 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 17:57:11,839 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 17:57:11,839 - INFO -  * Restarting with stat
+2024-07-20 17:57:12,322 - WARNING -  * Debugger is active!
+2024-07-20 17:57:12,322 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 17:57:15,653 - INFO - 127.0.0.1 - - [20/Jul/2024 17:57:15] "[35m[1mGET /create_user?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-20 17:58:11,292 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 17:58:11,292 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 17:58:11,297 - INFO -  * Restarting with stat
+2024-07-20 17:58:11,728 - WARNING -  * Debugger is active!
+2024-07-20 17:58:11,736 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 17:58:14,116 - INFO - create_user function has started...
+2024-07-20 17:58:55,929 - INFO - Admin Donlee.L has created the admin user
+2024-07-20 17:59:00,788 - INFO - 127.0.0.1 - - [20/Jul/2024 17:59:00] "[35m[1mGET /create_user?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-20 18:00:40,242 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-20 18:00:40,323 - INFO -  * Restarting with stat
+2024-07-20 18:00:40,781 - WARNING -  * Debugger is active!
+2024-07-20 18:00:40,788 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 18:00:41,678 - INFO - create_user function has started...
+2024-07-20 18:01:09,160 - INFO - Admin Donlee.L has created the admin user
+2024-07-20 18:01:14,030 - INFO - 127.0.0.1 - - [20/Jul/2024 18:01:14] "[35m[1mGET /create_user?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-20 18:07:07,693 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 18:07:07,693 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 18:07:07,699 - INFO -  * Restarting with stat
+2024-07-20 18:07:08,171 - WARNING -  * Debugger is active!
+2024-07-20 18:07:08,183 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 18:07:11,674 - INFO - create_user function has started...
+2024-07-20 18:07:42,086 - INFO - Admin Donlee.L has created the admin user
+2024-07-20 18:07:47,075 - INFO - 127.0.0.1 - - [20/Jul/2024 18:07:47] "[35m[1mGET /create_user?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-20 18:08:27,794 - INFO - create_user function has started...
+2024-07-20 18:08:50,703 - INFO - Admin Donlee.L has created the normal user
+2024-07-20 18:08:55,860 - INFO - 127.0.0.1 - - [20/Jul/2024 18:08:55] "GET /create_user?name=Donlee.L HTTP/1.1" 200 -
+2024-07-20 18:17:27,787 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 18:17:27,788 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 18:17:27,793 - INFO -  * Restarting with stat
+2024-07-20 18:17:28,229 - WARNING -  * Debugger is active!
+2024-07-20 18:17:28,235 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 18:17:33,293 - INFO - create_user function has started...
+2024-07-20 18:18:09,750 - INFO - Admin Donlee.L has created the admin user
+2024-07-20 18:18:15,299 - INFO - 127.0.0.1 - - [20/Jul/2024 18:18:15] "GET /create_user?name=Donlee.L HTTP/1.1" 200 -
+2024-07-20 18:20:27,722 - INFO - create_user function has started...
+2024-07-20 18:21:00,419 - ERROR - User name cannot be 2 character
+2024-07-20 18:21:00,419 - ERROR - Error:-User name cannot be 2 character
+2024-07-20 18:21:00,419 - INFO - create_user function has ended...
+2024-07-20 18:21:00,429 - INFO - 127.0.0.1 - - [20/Jul/2024 18:21:00] "[35m[1mGET /create_user?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-20 18:22:22,300 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-20 18:22:22,388 - INFO -  * Restarting with stat
+2024-07-20 18:22:22,905 - WARNING -  * Debugger is active!
+2024-07-20 18:22:22,912 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 18:22:22,934 - INFO - create_user function has started...
+2024-07-20 18:22:50,285 - INFO - Admin Donlee.L has created the admin user
+2024-07-20 18:22:55,072 - INFO - 127.0.0.1 - - [20/Jul/2024 18:22:55] "GET /create_user?name=Donlee.L HTTP/1.1" 200 -
+2024-07-20 18:23:03,943 - INFO - create_user function has started...
+2024-07-20 18:23:24,778 - ERROR - User name cannot be 2 character
+2024-07-20 18:23:24,778 - ERROR - Error:-User name cannot be 2 character
+2024-07-20 18:23:24,778 - INFO - create_user function has ended...
+2024-07-20 18:23:24,845 - INFO - 127.0.0.1 - - [20/Jul/2024 18:23:24] "[35m[1mGET /create_user?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-20 18:25:04,539 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-20 18:25:04,610 - INFO -  * Restarting with stat
+2024-07-20 18:25:05,200 - WARNING -  * Debugger is active!
+2024-07-20 18:25:05,213 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 18:25:05,437 - INFO - create_user function has started...
+2024-07-20 18:25:14,598 - ERROR - Incorrect role choosen - available options are normal and admin only
+2024-07-20 18:25:14,598 - INFO - create_user function has ended...
+2024-07-20 18:25:14,603 - INFO - 127.0.0.1 - - [20/Jul/2024 18:25:14] "[35m[1mGET /create_user?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-20 18:33:50,789 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 18:33:50,789 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 18:33:50,794 - INFO -  * Restarting with stat
+2024-07-20 18:33:51,225 - WARNING -  * Debugger is active!
+2024-07-20 18:33:51,232 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 18:33:54,620 - INFO - create_user function has started...
+2024-07-20 18:34:16,385 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 18:34:16,385 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 18:34:16,391 - INFO -  * Restarting with stat
+2024-07-20 18:34:16,840 - WARNING -  * Debugger is active!
+2024-07-20 18:34:16,848 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 18:34:19,043 - INFO - create_user function has started...
+2024-07-20 18:34:23,696 - ERROR - Incorrect role choosen - available options are normal and admin only
+2024-07-20 18:34:23,697 - INFO - create_user function has ended...
+2024-07-20 18:34:23,721 - INFO - 127.0.0.1 - - [20/Jul/2024 18:34:23] "[35m[1mGET /create_user?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-20 18:35:14,040 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-20 18:35:14,098 - INFO -  * Restarting with stat
+2024-07-20 18:35:14,638 - WARNING -  * Debugger is active!
+2024-07-20 18:35:14,645 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 18:35:15,546 - INFO - create_user function has started...
+2024-07-20 18:35:24,798 - ERROR - Incorrect role choosen - available options are normal and admin only
+2024-07-20 18:35:24,798 - INFO - create_user function has ended...
+2024-07-20 18:35:24,822 - INFO - 127.0.0.1 - - [20/Jul/2024 18:35:24] "[35m[1mGET /create_user?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-20 18:36:21,843 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 18:36:21,843 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 18:36:21,848 - INFO -  * Restarting with stat
+2024-07-20 18:36:22,371 - WARNING -  * Debugger is active!
+2024-07-20 18:36:22,378 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 18:36:24,422 - INFO - create_user function has started...
+2024-07-20 18:36:28,287 - ERROR - Incorrect role choosen - available options are normal and admin only
+2024-07-20 18:36:28,287 - INFO - create_user function has ended...
+2024-07-20 18:36:28,288 - INFO - 127.0.0.1 - - [20/Jul/2024 18:36:28] "GET /create_user?name=Donlee.L HTTP/1.1" 200 -
+2024-07-20 18:40:24,990 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 18:40:24,991 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 18:40:24,996 - INFO -  * Restarting with stat
+2024-07-20 18:40:25,423 - WARNING -  * Debugger is active!
+2024-07-20 18:40:25,430 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 18:40:27,522 - INFO - create_user function has started...
+2024-07-20 18:40:30,463 - ERROR - Incorrect role choosen - available options are normal and admin only
+2024-07-20 18:40:30,463 - INFO - create_user function has ended...
+2024-07-20 18:40:30,464 - INFO - 127.0.0.1 - - [20/Jul/2024 18:40:30] "[31m[1mGET /create_user?name=Donlee.L HTTP/1.1[0m" 400 -
+2024-07-20 18:49:37,207 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 18:49:37,207 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 18:49:37,207 - INFO -  * Restarting with stat
+2024-07-20 18:49:37,615 - WARNING -  * Debugger is active!
+2024-07-20 18:49:37,631 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 18:49:45,620 - INFO - Admin has entered name is kumar.M
+2024-07-20 18:49:45,620 - INFO - update_record function has started...
+2024-07-20 18:49:45,620 - INFO - "message:-Modifying User=kumar.M record"
+2024-07-20 18:50:11,525 - INFO - "message:- Previous record of User=makala  is :-" {'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}
+2024-07-20 18:50:11,525 - INFO - "message:-" "Modified User=makala  record is ":-{'username': 'makala', 'name': 'makala', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}
+2024-07-20 18:50:11,526 - INFO - update_record function has ended...
+2024-07-20 18:50:11,526 - ERROR - name 'name' is not defined
+2024-07-20 18:50:11,527 - INFO - 127.0.0.1 - - [20/Jul/2024 18:50:11] "[31m[1mGET /update_record?name=kumar.M HTTP/1.1[0m" 400 -
+2024-07-20 18:51:48,499 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 18:51:48,499 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 18:51:48,505 - INFO -  * Restarting with stat
+2024-07-20 18:51:48,938 - WARNING -  * Debugger is active!
+2024-07-20 18:51:48,947 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 18:51:51,675 - INFO - Admin has entered name is kumar.M
+2024-07-20 18:51:51,675 - INFO - update_record function has started...
+2024-07-20 18:51:51,675 - INFO - "message:-Modifying User=kumar.M record"
+2024-07-20 18:52:06,625 - INFO - "message:- Previous record of User=makala  is :-" {'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}
+2024-07-20 18:52:06,625 - INFO - "message:-" "Modified User=makala  record is ":-{'username': 'makala', 'name': 'makala', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}
+2024-07-20 18:52:11,611 - INFO - updated record is = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}]}
+2024-07-20 18:52:11,612 - INFO - 127.0.0.1 - - [20/Jul/2024 18:52:11] "GET /update_record?name=kumar.M HTTP/1.1" 200 -
+2024-07-20 19:04:36,637 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 19:04:36,638 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 19:04:36,643 - INFO -  * Restarting with stat
+2024-07-20 19:04:37,070 - WARNING -  * Debugger is active!
+2024-07-20 19:04:37,080 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 19:04:40,729 - INFO - Admin has entered name is kumar
+2024-07-20 19:04:40,729 - ERROR - Entered user=kumar has no records
+2024-07-20 19:04:40,730 - INFO - update_record function has ended...
+2024-07-20 19:04:40,730 - ERROR - Object of type set is not JSON serializable
+2024-07-20 19:04:40,731 - INFO - 127.0.0.1 - - [20/Jul/2024 19:04:40] "[31m[1mGET /update_record?name=kumar HTTP/1.1[0m" 400 -
+2024-07-20 19:05:18,794 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 19:05:18,794 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 19:05:18,799 - INFO -  * Restarting with stat
+2024-07-20 19:05:19,274 - WARNING -  * Debugger is active!
+2024-07-20 19:05:19,280 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 19:05:21,120 - INFO - Admin has entered name is kumar
+2024-07-20 19:05:21,120 - ERROR - Entered user=kumar has no records
+2024-07-20 19:05:21,120 - INFO - 127.0.0.1 - - [20/Jul/2024 19:05:21] "[31m[1mGET /update_record?name=kumar HTTP/1.1[0m" 400 -
+2024-07-20 19:19:31,760 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 19:19:31,760 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 19:19:31,765 - INFO -  * Restarting with stat
+2024-07-20 19:19:32,203 - WARNING -  * Debugger is active!
+2024-07-20 19:19:32,211 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 19:19:34,178 - INFO - Admin has entered name is kumar
+2024-07-20 19:19:34,178 - ERROR - Entered user=kumar has no records
+2024-07-20 19:19:34,178 - INFO - 127.0.0.1 - - [20/Jul/2024 19:19:34] "[31m[1mGET /update_record?name=kumar HTTP/1.1[0m" 400 -
+2024-07-20 19:19:39,288 - INFO - Admin has entered name is kumar.M
+2024-07-20 19:19:39,288 - INFO - update_record function has started...
+2024-07-20 19:19:39,289 - INFO - "message:-Modifying User=kumar.M record"
+2024-07-20 21:34:57,554 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 21:34:57,554 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 21:34:57,573 - INFO -  * Restarting with stat
+2024-07-20 21:34:58,848 - WARNING -  * Debugger is active!
+2024-07-20 21:34:58,863 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 21:34:59,243 - INFO - Admin has entered name is kumar.M
+2024-07-20 21:34:59,243 - INFO - update_record function has started...
+2024-07-20 21:34:59,243 - INFO - "message:-Modifying User=kumar.M record"
+2024-07-20 21:35:23,432 - INFO - "message:- Previous record of User=makala  is :-" {'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}
+2024-07-20 21:35:23,433 - INFO - "message:-" "Modified User=makala  record is ":-{'username': 'makala', 'name': 'makala', 'dept': 'OPR', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}
+2024-07-20 21:35:28,287 - INFO - updated record is = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'OPR', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}]}
+2024-07-20 21:35:28,295 - INFO - 127.0.0.1 - - [20/Jul/2024 21:35:28] "GET /update_record?name=kumar.M HTTP/1.1" 200 -
+2024-07-20 21:37:35,811 - INFO - update_user_record function has started....
+2024-07-20 21:37:35,811 - INFO - user=dinesh.A data is in records
+2024-07-20 21:37:55,559 - INFO - Before updating the record = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'OPR', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}]}
+2024-07-20 21:37:55,560 - INFO - After user updated his record = {'records': [{'username': 'makala', 'name': 'makala', 'dept': 'OPR', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}, {'username': 'sai', 'name': 'dinesh.A', 'dept': 'DEV', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}]}
+2024-07-20 21:38:01,078 - DEBUG - Updated user=dinesh.A record = {'username': 'sai', 'name': 'dinesh.A', 'dept': 'DEV', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}
+2024-07-20 21:38:01,081 - INFO - 127.0.0.1 - - [20/Jul/2024 21:38:01] "GET /update_user_record?name=dinesh.A HTTP/1.1" 200 -
+2024-07-20 21:38:54,809 - INFO - update_user_record function has started....
+2024-07-20 21:38:54,809 - INFO - update_user_record function has ended...
+2024-07-20 21:38:54,866 - INFO - 127.0.0.1 - - [20/Jul/2024 21:38:54] "[35m[1mGET /update_user_record?name=dinesh HTTP/1.1[0m" 500 -
+2024-07-20 21:39:54,081 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 21:39:54,081 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 21:39:54,091 - INFO -  * Restarting with stat
+2024-07-20 21:39:55,400 - WARNING -  * Debugger is active!
+2024-07-20 21:39:55,415 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 21:39:56,384 - INFO - update_user_record function has started....
+2024-07-20 21:39:56,385 - INFO - update_user_record function has ended...
+2024-07-20 21:39:56,396 - INFO - 127.0.0.1 - - [20/Jul/2024 21:39:56] "[35m[1mGET /update_user_record?name=dinesh HTTP/1.1[0m" 500 -
+2024-07-20 21:43:44,463 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 21:43:44,463 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 21:43:44,473 - INFO -  * Restarting with stat
+2024-07-20 21:43:45,403 - WARNING -  * Debugger is active!
+2024-07-20 21:43:45,414 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 21:43:51,878 - INFO - Saved Record={'records': [{'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}]}
+2024-07-20 21:43:51,879 - INFO - partial_update_record function has ended...
+2024-07-20 21:43:51,891 - INFO - 127.0.0.1 - - [20/Jul/2024 21:43:51] "[35m[1mGET /partial_update_record?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-20 21:44:21,395 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 21:44:21,396 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 21:44:21,416 - INFO -  * Restarting with stat
+2024-07-20 21:44:22,894 - WARNING -  * Debugger is active!
+2024-07-20 21:44:22,927 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 21:44:24,827 - INFO - Saved Record={'records': [{'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}]}
+2024-07-20 21:44:24,827 - INFO - partial_update_record function has ended...
+2024-07-20 21:44:24,843 - INFO - 127.0.0.1 - - [20/Jul/2024 21:44:24] "[35m[1mGET /partial_update_record?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-20 21:45:30,564 - ERROR - Entered user=Donlee has no records
+2024-07-20 21:45:30,565 - INFO - 127.0.0.1 - - [20/Jul/2024 21:45:30] "[31m[1mGET /partial_update_record?name=Donlee HTTP/1.1[0m" 400 -
+2024-07-20 21:46:00,003 - INFO - For User=dinesh.A --> partial_update_record function has started...
+2024-07-20 21:46:00,003 - INFO - "message:-" "Partial Modifying "dinesh.A" record"
+2024-07-20 21:46:26,222 - INFO - "message:-" "Partial Modified "balayya" record is ":-{'username': 'dinesh2003', 'name': 'balayya', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}
+2024-07-20 21:46:26,223 - INFO - 127.0.0.1 - - [20/Jul/2024 21:46:26] "GET /partial_update_record?name=dinesh.A HTTP/1.1" 200 -
+2024-07-20 21:47:59,219 - INFO - reset_password function has started...
+2024-07-20 21:47:59,219 - INFO - Admin enterd user name is "kumar.M"
+2024-07-20 21:48:20,528 - INFO - Admin changed user=kumar.M password to "Doramon@338"
+2024-07-20 21:48:20,529 - INFO - Before the reset password User=kumar.M password is "Kumar@123"
+2024-07-20 21:48:20,529 - ERROR - Replacement index 1 out of range for positional args tuple
+2024-07-20 21:48:20,529 - INFO - reset_password function has ended...
+2024-07-20 21:48:20,530 - INFO - 127.0.0.1 - - [20/Jul/2024 21:48:20] "[31m[1mGET /reset_password?name=kumar.M HTTP/1.1[0m" 400 -
+2024-07-20 21:49:43,115 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-20 21:49:43,317 - INFO -  * Restarting with stat
+2024-07-20 21:49:44,599 - WARNING -  * Debugger is active!
+2024-07-20 21:49:44,617 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 21:49:45,037 - INFO - reset_password function has started...
+2024-07-20 21:49:45,038 - INFO - Admin enterd user name is "kumar.M"
+2024-07-20 21:49:53,586 - INFO - Admin changed user=kumar.M password to "Doramon@338"
+2024-07-20 21:49:53,586 - INFO - Before the reset password User=kumar.M password is "Kumar@123"
+2024-07-20 21:49:53,587 - ERROR - Replacement index 1 out of range for positional args tuple
+2024-07-20 21:49:53,587 - INFO - reset_password function has ended...
+2024-07-20 21:49:53,588 - INFO - 127.0.0.1 - - [20/Jul/2024 21:49:53] "[31m[1mGET /reset_password?name=kumar.M HTTP/1.1[0m" 400 -
+2024-07-20 21:51:41,621 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-20 21:51:41,732 - INFO -  * Restarting with stat
+2024-07-20 21:51:42,947 - WARNING -  * Debugger is active!
+2024-07-20 21:51:42,964 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 21:51:43,047 - INFO - reset_password function has started...
+2024-07-20 21:51:43,047 - INFO - Admin enterd user name is "kumar.M"
+2024-07-20 21:51:49,475 - INFO - Admin changed user=kumar.M password to "Doramon@338"
+2024-07-20 21:51:49,476 - INFO - Before the reset password User=kumar.M password is "Kumar@123"
+2024-07-20 21:51:49,476 - ERROR - Replacement index 1 out of range for positional args tuple
+2024-07-20 21:51:49,476 - INFO - reset_password function has ended...
+2024-07-20 21:51:49,478 - INFO - 127.0.0.1 - - [20/Jul/2024 21:51:49] "[31m[1mGET /reset_password?name=kumar.M HTTP/1.1[0m" 400 -
+2024-07-20 21:52:46,485 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 21:52:46,486 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 21:52:46,497 - INFO -  * Restarting with stat
+2024-07-20 21:52:47,997 - WARNING -  * Debugger is active!
+2024-07-20 21:52:48,016 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 21:52:48,624 - INFO - reset_password function has started...
+2024-07-20 21:52:48,624 - INFO - Admin enterd user name is "kumar.M"
+2024-07-20 21:52:58,590 - INFO - Admin changed user=kumar.M password to "Doemaon@344"
+2024-07-20 21:52:58,590 - INFO - Before the reset password User=kumar.M password is "Kumar@123"
+2024-07-20 21:52:58,591 - ERROR - Replacement index 1 out of range for positional args tuple
+2024-07-20 21:52:58,591 - INFO - reset_password function has ended...
+2024-07-20 21:52:58,592 - INFO - 127.0.0.1 - - [20/Jul/2024 21:52:58] "[31m[1mGET /reset_password?name=kumar.M HTTP/1.1[0m" 400 -
+2024-07-20 21:55:11,460 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 21:55:11,461 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 21:55:11,472 - INFO -  * Restarting with stat
+2024-07-20 21:55:12,416 - WARNING -  * Debugger is active!
+2024-07-20 21:55:12,431 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 21:55:15,531 - INFO - reset_password function has started...
+2024-07-20 21:55:15,531 - INFO - Admin enterd user name is "kumar.M"
+2024-07-20 21:55:25,103 - INFO - Admin changed user=kumar.M password to "Doemamkk@7838"
+2024-07-20 21:55:25,103 - INFO - Before the reset password User=kumar.M password is "Kumar@123"
+2024-07-20 21:55:30,216 - INFO - After the reset password User=kumar.M password is "Doemamkk@7838"
+2024-07-20 21:55:30,218 - INFO - 127.0.0.1 - - [20/Jul/2024 21:55:30] "GET /reset_password?name=kumar.M HTTP/1.1" 200 -
+2024-07-20 21:56:05,434 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-20 21:56:05,524 - INFO -  * Restarting with stat
+2024-07-20 21:56:06,774 - WARNING -  * Debugger is active!
+2024-07-20 21:56:06,790 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 21:56:07,146 - INFO - reset_password function has started...
+2024-07-20 21:56:07,146 - INFO - Admin enterd user name is "kumar.M"
+2024-07-20 21:56:19,685 - INFO - Admin changed user=kumar.M password to "Doemamkk@7838"
+2024-07-20 21:56:19,685 - INFO - Before the reset password User=kumar.M password is "Kumar@123"
+2024-07-20 21:56:25,073 - INFO - After the reset password User=kumar.M password is "Doemamkk@7838"
+2024-07-20 21:56:25,075 - INFO - 127.0.0.1 - - [20/Jul/2024 21:56:25] "GET /reset_password?name=kumar.M HTTP/1.1" 200 -
+2024-07-20 22:01:17,468 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 22:01:17,468 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 22:01:17,494 - INFO -  * Restarting with stat
+2024-07-20 22:01:18,851 - WARNING -  * Debugger is active!
+2024-07-20 22:01:18,869 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 22:01:18,933 - INFO - user_info function started...
+2024-07-20 22:01:18,936 - INFO - User=dinesh.A having checking his information
+2024-07-20 22:01:23,569 - INFO - Your information :- {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}
+2024-07-20 22:01:23,572 - INFO - 127.0.0.1 - - [20/Jul/2024 22:01:23] "GET /user_info?name=dinesh.A HTTP/1.1" 200 -
+2024-07-20 22:02:10,533 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-20 22:02:10,634 - INFO -  * Restarting with stat
+2024-07-20 22:02:11,720 - WARNING -  * Debugger is active!
+2024-07-20 22:02:11,736 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 22:02:45,952 - INFO - user_info function started...
+2024-07-20 22:02:45,952 - INFO - user_info function ended...
+2024-07-20 22:02:45,961 - INFO - 127.0.0.1 - - [20/Jul/2024 22:02:45] "[35m[1mGET /user_info?name=dinesh%20 HTTP/1.1[0m" 500 -
+2024-07-20 22:02:52,137 - INFO - user_info function started...
+2024-07-20 22:02:52,137 - INFO - user_info function ended...
+2024-07-20 22:02:52,140 - INFO - 127.0.0.1 - - [20/Jul/2024 22:02:52] "[35m[1mGET /user_info?name=dinesh HTTP/1.1[0m" 500 -
+2024-07-20 22:07:34,080 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-20 22:07:34,081 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-20 22:07:34,091 - INFO -  * Restarting with stat
+2024-07-20 22:07:35,705 - WARNING -  * Debugger is active!
+2024-07-20 22:07:35,721 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 22:07:39,122 - INFO - user_info function started...
+2024-07-20 22:07:39,122 - ERROR - User=dinesh record is not there
+2024-07-20 22:07:39,122 - INFO - user_info function ended...
+2024-07-20 22:07:39,122 - INFO - 127.0.0.1 - - [20/Jul/2024 22:07:39] "[31m[1mGET /user_info?name=dinesh HTTP/1.1[0m" 400 -
+2024-07-20 22:09:31,906 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\constants.py', reloading
+2024-07-20 22:09:31,978 - INFO -  * Restarting with stat
+2024-07-20 22:09:33,167 - WARNING -  * Debugger is active!
+2024-07-20 22:09:33,181 - INFO -  * Debugger PIN: 133-050-019
+2024-07-20 22:09:52,022 - INFO - Saved Record = {'records': [{'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}]}
+2024-07-20 22:09:52,026 - INFO - 127.0.0.1 - - [20/Jul/2024 22:09:52] "GET /read_records HTTP/1.1" 200 -
