@@ -20,7 +20,6 @@ app = Flask('__name__')
 
 
 @app.route('/create_user', methods=["POST"])
-@authenticate
 def create_user():
     """
     These function is used to create user for Authentication and Authorisation purpose.
@@ -31,6 +30,9 @@ def create_user():
     log.info(f'{name} - create_user function has started...')
 
     try:
+        if not authenticate_user(name):
+            raise AuthenticationError(f"Unauthorised user= {name} detected..")
+
         if name in ADMINS:
             role = input(f"Which role,normal(or)admin: ")
 
@@ -64,14 +66,14 @@ def create_user():
 
         else:
             log.error(f"{name} - does not have create user profile permission")
-            raise PermissionError(f"{name} - does not have create user profile permission")
+            raise AuthorizationError(f"{name} - does not have create user profile permission")
     except ValueError as val_err:
         log.error(val_err)
         return jsonify(error=str(val_err), status=const.FAILED), 400
 
-    except PermissionError as per_err:
-        log.error(per_err)
-        return jsonify(error=str(per_err), status=const.FAILED), 403
+    except AuthorizationError as authz_err:
+        log.error(authz_err)
+        return jsonify(error=str(authz_err), status=const.FAILED), 403
 
     except AuthenticationError as auth_err:
         log.error(auth_err)
@@ -85,7 +87,6 @@ def create_user():
 
 
 @app.route('/update_record', methods=["PUT"])
-@authenticate
 def update_record():
     """
     This function is used to update full record of a user in DATA
@@ -95,6 +96,9 @@ def update_record():
     name = data.get("name")
     log.info(f'{name} - update_record function has started...')
     try:
+        if not authenticate_user(name):
+            raise AuthenticationError(f"Unauthorised user= {name} detected..")
+
         if name in ADMINS:
             Name = input("Enter the name of the user, to update his record = ")
             if Name in ALL_USERS:
@@ -103,13 +107,12 @@ def update_record():
                     if Name == current_record["name"]:
 
                         log.debug(f'{name} - "Modifying User={Name} record"')
+                        log.debug(f'{name} - "Previous record of User={Name}  is :-" {DATA["records"][item]}')
 
                         Username = input(f"Enter the username for User={Name}  record :- ")
                         Name = input(f"Enter name for User={Name}  record:- ")
                         Gender = input(f'Enter the gender for User={Name}  record:-')
                         Dept = input(f'Enter your Depeartment fro User={Name}  record:-')
-
-                        log.debug(f'{name} - "Previous record of User={Name}  is :-" {DATA["records"][item]}')
 
                         if is_valid_name(Name):
                             if is_valid_gender(Gender, Name):
@@ -126,7 +129,7 @@ def update_record():
                                                admin=DATA["records"][item]["isadmin"], status=const.SUCCESS), 200
             else:
                 log.error(f'{name} - user={Name} has no records,check name once')
-                return jsonify(error=f'{Name} has no records,check nama once', status=const.FAILED), 400
+                return jsonify(error=f'{Name} has no records,check name once', status=const.FAILED), 400
         else:
             log.error(f"{name} - does not have update user permission")
             raise AuthorizationError(f"{name} - does not have update user permission")
@@ -151,7 +154,6 @@ def update_record():
 
 
 @app.route('/update_user_record', methods=["PUT"])
-@authenticate
 def update_user_record():
     """
     These function is used to update the records of individuals.
@@ -161,6 +163,9 @@ def update_user_record():
     name = data.get("name")
     log.info(f"{name} - update_user_record function has started....")
     try:
+        if not authenticate_user(name):
+            raise AuthenticationError(f"Unauthorised user= {name} detected..")
+
         for item in range(len(DATA["records"])):
             if name == DATA["records"][item]["name"]:
                 log.debug(f'{name} - has updating his record')
@@ -179,7 +184,7 @@ def update_user_record():
                     log.debug(f'{name} - After user updated his record = {current_record}')
                     send_email([members for members in receivers],
                                UPDATE_USER_RECORD.format(name, DATA["records"][item]))
-                    return jsonify(message=DATA["records"][item]["name"] + "has updated his record",
+                    return jsonify(message=DATA["records"][item]["name"] + " has updated his record",
                                    admin=DATA["records"][item]["isadmin"], status=const.SUCCESS), 200
 
     except ValueError as val_err:
@@ -198,7 +203,6 @@ def update_user_record():
 
 
 @app.route('/partial_update_record', methods=["PATCH"])
-@authenticate
 def partial_update_record():
     """
     This function is used to partial update of records in DATA
@@ -208,12 +212,15 @@ def partial_update_record():
     name = data.get("name")
     log.info(f'{name} - partial_update_record has started...')
     try:
+        if not authenticate_user(name):
+            raise AuthenticationError(f"Unauthorised user= {name} detected..")
+
         if name in ADMINS:
             Name = input("Enter the name of user, to partially update his record = ")
             if Name in ALL_USERS:
                 for item in range(len(DATA["records"])):
                     if Name == DATA["records"][item]["name"]:
-                        log.info(f'{name} - Partial Modifying "{Name}" record')
+                        log.debug(f'{name} - Partial Modifying "{Name}" record')
 
                         Name = input(f'Enter name for "{Name}" record:- ')
                         if is_valid_name(Name):
@@ -222,7 +229,7 @@ def partial_update_record():
                             send_email([members for members in receivers],
                                        PARTIAL_UPDATE.format(Name, DATA["records"][item]))
                             log.debug(f'{name} - Partial Modified "{Name}" record is :-{DATA["records"][item]}')
-                            return jsonify(message=DATA["records"][item]["name"] + "partially updated the record",
+                            return jsonify(message=DATA["records"][item]["name"] + " partially updated the record",
                                            admin=DATA["records"][item]["isadmin"], status=const.SUCCESS), 200
             else:
                 log.error(f'{name} - user={Name} has no records,check name once')
@@ -248,7 +255,6 @@ def partial_update_record():
 
 
 @app.route('/reset_password', methods=["PATCH"])
-@authenticate
 def reset_password():
     """
     These function is used to reset the user password.
@@ -258,6 +264,9 @@ def reset_password():
     name = data.get("name")
     log.info(f'{name} - reset_password function has started...')
     try:
+        if not authenticate_user(name):
+            raise AuthenticationError(f"Unauthorised user= {name} detected..")
+
         if name in ADMINS:
             Name = input("Enter the name of the user, to reset his password = ")
             if Name in ALL_USERS:
@@ -265,7 +274,7 @@ def reset_password():
                     if Name == DATA["records"][item]["name"]:
                         Password = input(
                             "Enter the password that should contain one uppercase,lowercase,digit,special character = ")
-                        user_name= Name
+                        user_name = Name
                         if is_valid_password(Password):
                             log.debug(
                                 f'{name} - Before the reset password User={Name} password is "{DATA['records'][item]['password']}"')
@@ -274,7 +283,7 @@ def reset_password():
                             log.debug(
                                 f'{name} - After the reset password User={Name} password is "{DATA['records'][item]['password']}"')
 
-                            return jsonify(message=user_name + "password has been updated", status=const.SUCCESS), 200
+                            return jsonify(message=user_name + " password has been updated", status=const.SUCCESS), 200
             else:
                 log.error(f'{name} - user={Name} has no records,check name once')
                 return jsonify(error=f'{Name} has no records,check name once', status=const.FAILED), 400
@@ -298,7 +307,6 @@ def reset_password():
 
 
 @app.route('/user_info', methods=["GET"])
-@authenticate
 def user_info():
     """
     These function is about checking user detailed information.
@@ -310,6 +318,9 @@ def user_info():
     name = data.get("name")
     log.info(f'{name} - user_info function started...')
     try:
+        if not authenticate_user(name):
+            raise AuthenticationError(f"Unauthorised user= {name} detected..")
+
         if name in ADMINS:
             Name = input("Enter the name of user to see his details:- ")
             if Name in ALL_USERS:
@@ -344,7 +355,6 @@ def user_info():
 
 
 @app.route('/delete_record', methods=["DELETE"])
-@authenticate
 def delete_record():
     """
     This function will delete the record in DATA
@@ -354,6 +364,9 @@ def delete_record():
     name = data.get("name")
     log.info(f'{name} - delete_record function has started...')
     try:
+        if not authenticate_user(name):
+            raise AuthenticationError(f"Unauthorised user= {name} detected..")
+
         if name in ADMINS:
             Name = input("Enter the name of user, to delete his record = ")
             if Name in ALL_USERS:
@@ -364,7 +377,7 @@ def delete_record():
                         send_email([members for members in receivers],
                                    DELETE_MESSAGE.format(Name))
                         log.debug(f'{name} - Deleted the {Name} record...')
-                        return jsonify(message=Name + "record has been deleted", status=const.SUCCESS), 200
+                        return jsonify(message=Name + " record has been deleted", status=const.SUCCESS), 200
             else:
                 log.error(f"{name} - {Name},is not in records,check name once")
                 raise Exception(f"{name} - {Name},is not in records,check name once")
@@ -387,8 +400,7 @@ def delete_record():
         log.info(f'{name} - delete_record function has ended....')
 
 
-@app.route('/read_records',methods=["GET"])
-@authenticate
+@app.route('/read_records', methods=["GET"])
 def read_records():
     """
     These function is used to read the entire records
@@ -398,6 +410,9 @@ def read_records():
     name = data.get("name")
     log.info(f'{name} - read_records function has started...')
     try:
+        if not authenticate_user(name):
+            raise AuthenticationError(f"Unauthorised user= {name} detected..")
+
         send_email([members for members in receivers], GET_ALL_MESSAGE)
         return jsonify(message=DATA, status=const.SUCCESS), 200
 
@@ -412,4 +427,5 @@ def read_records():
         log.info(f'{name} - read_records function has ended...')
 
 
+# Run the application
 app.run(debug=True)

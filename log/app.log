@@ -1048,3 +1048,284 @@
 2024-07-21 18:12:25,953 - WARNING -  * Debugger is active!
 2024-07-21 18:12:25,970 - INFO -  * Debugger PIN: 133-050-019
 2024-07-21 18:12:28,727 - INFO - 127.0.0.1 - - [21/Jul/2024 18:12:28] "[35m[1mPOST /create_user?name=Donlee HTTP/1.1[0m" 500 -
+2024-07-21 21:54:32,620 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 21:54:32,621 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 21:54:32,631 - INFO -  * Restarting with stat
+2024-07-21 21:54:33,824 - WARNING -  * Debugger is active!
+2024-07-21 21:54:33,848 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 21:55:38,776 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 21:55:38,776 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 21:55:38,786 - INFO -  * Restarting with stat
+2024-07-21 21:55:39,754 - WARNING -  * Debugger is active!
+2024-07-21 21:55:39,769 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 21:56:42,353 - INFO - 127.0.0.1 - - [21/Jul/2024 21:56:42] "[35m[1mPOST /create_user?dinesh HTTP/1.1[0m" 500 -
+2024-07-21 21:57:35,861 - INFO - 127.0.0.1 - - [21/Jul/2024 21:57:35] "[35m[1mPOST /create_user?dinesh.A HTTP/1.1[0m" 500 -
+2024-07-21 21:57:47,274 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 21:57:47,274 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 21:57:47,285 - INFO -  * Restarting with stat
+2024-07-21 21:57:48,170 - WARNING -  * Debugger is active!
+2024-07-21 21:57:48,194 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 21:57:50,133 - INFO - 127.0.0.1 - - [21/Jul/2024 21:57:50] "[35m[1mPOST /create_user?dinesh.A HTTP/1.1[0m" 500 -
+2024-07-21 21:58:35,395 - INFO - User=dinesh.A authentication successfull
+2024-07-21 21:58:35,396 - INFO - dinesh.A - create_user function has started...
+2024-07-21 21:58:35,396 - ERROR - dinesh.A - does not have create user profile permission
+2024-07-21 21:58:35,396 - ERROR - dinesh.A - does not have create user profile permission
+2024-07-21 21:58:35,396 - INFO - dinesh.A - create_user function has ended...
+2024-07-21 21:58:35,397 - INFO - 127.0.0.1 - - [21/Jul/2024 21:58:35] "[31m[1mPOST /create_user?name=dinesh.A HTTP/1.1[0m" 403 -
+2024-07-21 21:59:01,693 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 21:59:01,693 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 21:59:01,702 - INFO -  * Restarting with stat
+2024-07-21 21:59:02,826 - WARNING -  * Debugger is active!
+2024-07-21 21:59:02,839 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 21:59:05,773 - INFO - User=dinesh.A authentication successfull
+2024-07-21 21:59:05,774 - INFO - dinesh.A - create_user function has started...
+2024-07-21 21:59:05,774 - ERROR - dinesh.A - does not have create user profile permission
+2024-07-21 21:59:05,774 - ERROR - dinesh.A - does not have create user profile permission
+2024-07-21 21:59:05,775 - INFO - dinesh.A - create_user function has ended...
+2024-07-21 21:59:05,776 - INFO - 127.0.0.1 - - [21/Jul/2024 21:59:05] "[31m[1mPOST /create_user?name=dinesh.A HTTP/1.1[0m" 403 -
+2024-07-21 22:00:09,323 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-21 22:00:09,506 - INFO -  * Restarting with stat
+2024-07-21 22:00:10,957 - WARNING -  * Debugger is active!
+2024-07-21 22:00:10,970 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:00:12,040 - INFO - User=dinesh.A authentication successfull
+2024-07-21 22:00:12,042 - INFO - dinesh.A - create_user function has started...
+2024-07-21 22:00:12,042 - ERROR - dinesh.A - does not have create user profile permission
+2024-07-21 22:00:12,042 - ERROR - dinesh.A - does not have create user profile permission
+2024-07-21 22:00:12,042 - INFO - dinesh.A - create_user function has ended...
+2024-07-21 22:00:12,043 - INFO - 127.0.0.1 - - [21/Jul/2024 22:00:12] "[31m[1mPOST /create_user?name=dinesh.A HTTP/1.1[0m" 403 -
+2024-07-21 22:01:36,577 - INFO - 127.0.0.1 - - [21/Jul/2024 22:01:36] "[35m[1mPOST /create_user?name=dinesh HTTP/1.1[0m" 500 -
+2024-07-21 22:02:45,357 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-21 22:02:45,464 - INFO -  * Restarting with stat
+2024-07-21 22:02:46,381 - WARNING -  * Debugger is active!
+2024-07-21 22:02:46,396 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:02:53,449 - INFO - User=dinesh.A authentication successfull
+2024-07-21 22:02:53,449 - INFO - dinesh.A - create_user function has started...
+2024-07-21 22:02:53,449 - ERROR - dinesh.A - does not have create user profile permission
+2024-07-21 22:02:53,449 - ERROR - dinesh.A - does not have create user profile permission
+2024-07-21 22:02:53,449 - INFO - dinesh.A - create_user function has ended...
+2024-07-21 22:02:53,565 - INFO - 127.0.0.1 - - [21/Jul/2024 22:02:53] "[35m[1mPOST /create_user?name=dinesh.A HTTP/1.1[0m" 500 -
+2024-07-21 22:03:26,636 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-21 22:03:26,781 - INFO -  * Restarting with stat
+2024-07-21 22:03:28,269 - WARNING -  * Debugger is active!
+2024-07-21 22:03:28,284 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:03:28,742 - INFO - User=dinesh.A authentication successfull
+2024-07-21 22:03:28,743 - INFO - dinesh.A - create_user function has started...
+2024-07-21 22:03:28,743 - ERROR - dinesh.A - does not have create user profile permission
+2024-07-21 22:03:28,743 - ERROR - dinesh.A - does not have create user profile permission
+2024-07-21 22:03:28,744 - INFO - dinesh.A - create_user function has ended...
+2024-07-21 22:03:28,745 - INFO - 127.0.0.1 - - [21/Jul/2024 22:03:28] "[31m[1mPOST /create_user?name=dinesh.A HTTP/1.1[0m" 403 -
+2024-07-21 22:03:33,742 - INFO - 127.0.0.1 - - [21/Jul/2024 22:03:33] "[35m[1mPOST /create_user?name=dinesh HTTP/1.1[0m" 500 -
+2024-07-21 22:04:19,352 - INFO - User=Donlee.L authentication successfull
+2024-07-21 22:04:19,353 - INFO - Donlee.L - create_user function has started...
+2024-07-21 22:04:41,414 - DEBUG - Donlee.L - Admin has created the admin user
+2024-07-21 22:04:47,013 - DEBUG - Donlee.L - jdjkdkd.k admin user record added..
+2024-07-21 22:04:47,014 - INFO - Donlee.L - create_user function has ended...
+2024-07-21 22:04:47,015 - INFO - 127.0.0.1 - - [21/Jul/2024 22:04:47] "POST /create_user?name=Donlee.L HTTP/1.1" 200 -
+2024-07-21 22:05:41,098 - INFO - User=Donlee.L authentication successfull
+2024-07-21 22:05:41,099 - INFO - Donlee.L - create_user function has started...
+2024-07-21 22:05:44,149 - ERROR - Donlee.L - Incorrect role choosen - available options are normal and admin only
+2024-07-21 22:05:44,149 - INFO - Donlee.L - create_user function has ended...
+2024-07-21 22:05:44,150 - INFO - 127.0.0.1 - - [21/Jul/2024 22:05:44] "[31m[1mPOST /create_user?name=Donlee.L HTTP/1.1[0m" 400 -
+2024-07-21 22:06:44,777 - INFO - 127.0.0.1 - - [21/Jul/2024 22:06:44] "[31m[1mGET /create_user?name=Donlee%20 HTTP/1.1[0m" 405 -
+2024-07-21 22:06:50,978 - INFO - 127.0.0.1 - - [21/Jul/2024 22:06:50] "[35m[1mPOST /create_user?name=Donlee%20 HTTP/1.1[0m" 500 -
+2024-07-21 22:08:59,568 - INFO - 127.0.0.1 - - [21/Jul/2024 22:08:59] "[35m[1mPOST /create_user?name=Donlee%20 HTTP/1.1[0m" 500 -
+2024-07-21 22:11:20,720 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 22:11:20,721 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 22:11:20,732 - INFO -  * Restarting with stat
+2024-07-21 22:11:21,845 - WARNING -  * Debugger is active!
+2024-07-21 22:11:21,861 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:11:23,573 - INFO - 127.0.0.1 - - [21/Jul/2024 22:11:23] "[35m[1mPOST /create_user?name=Donlee%20 HTTP/1.1[0m" 500 -
+2024-07-21 22:12:32,365 - INFO - 127.0.0.1 - - [21/Jul/2024 22:12:32] "[33mPUT /update_recordr?name=Donlee%20 HTTP/1.1[0m" 404 -
+2024-07-21 22:12:54,235 - INFO - 127.0.0.1 - - [21/Jul/2024 22:12:54] "[33mPUT /update_recordr?name=Donlee%20 HTTP/1.1[0m" 404 -
+2024-07-21 22:13:01,666 - INFO - 127.0.0.1 - - [21/Jul/2024 22:13:01] "[33mPUT /update_recordr?name=Donlee.L HTTP/1.1[0m" 404 -
+2024-07-21 22:13:41,870 - INFO - 127.0.0.1 - - [21/Jul/2024 22:13:41] "[35m[1mPUT /update_record?name=dinesh HTTP/1.1[0m" 500 -
+2024-07-21 22:13:55,793 - INFO - User=dinesh.A authentication successfull
+2024-07-21 22:13:55,793 - INFO - dinesh.A - update_record function has started...
+2024-07-21 22:13:55,793 - ERROR - dinesh.A - does not have update user permission
+2024-07-21 22:13:55,793 - ERROR - dinesh.A - does not have update user permission
+2024-07-21 22:13:55,793 - INFO - dinesh.A - update_record function has ended...
+2024-07-21 22:13:55,795 - INFO - 127.0.0.1 - - [21/Jul/2024 22:13:55] "[31m[1mPUT /update_record?name=dinesh.A HTTP/1.1[0m" 403 -
+2024-07-21 22:14:42,276 - INFO - User=Donlee.L authentication successfull
+2024-07-21 22:14:42,276 - INFO - Donlee.L - update_record function has started...
+2024-07-21 22:14:49,715 - DEBUG - Donlee.L - "Modifying User=dinesh.A record"
+2024-07-21 22:15:01,503 - DEBUG - Donlee.L - "Previous record of User=sai  is :-" {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}
+2024-07-21 22:15:01,503 - DEBUG - Donlee.L - "Modified User=sai  record is ":-{'username': 'sai', 'name': 'sai', 'dept': 'OPR', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}
+2024-07-21 22:15:07,445 - INFO - Donlee.L - update_record function has ended...
+2024-07-21 22:15:07,446 - INFO - 127.0.0.1 - - [21/Jul/2024 22:15:07] "PUT /update_record?name=Donlee.L HTTP/1.1" 200 -
+2024-07-21 22:16:20,006 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-21 22:16:20,169 - INFO -  * Restarting with stat
+2024-07-21 22:16:21,151 - WARNING -  * Debugger is active!
+2024-07-21 22:16:21,169 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:16:21,820 - INFO - User=Donlee.L authentication successfull
+2024-07-21 22:16:21,821 - INFO - Donlee.L - update_record function has started...
+2024-07-21 22:16:27,765 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-21 22:16:35,978 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 22:16:35,979 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 22:16:35,989 - INFO -  * Restarting with stat
+2024-07-21 22:16:37,029 - WARNING -  * Debugger is active!
+2024-07-21 22:16:37,052 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:16:38,113 - INFO - User=Donlee.L authentication successfull
+2024-07-21 22:16:38,113 - INFO - Donlee.L - update_record function has started...
+2024-07-21 22:16:41,812 - ERROR - Donlee.L - user=sai has no records,check name once
+2024-07-21 22:16:41,812 - INFO - Donlee.L - update_record function has ended...
+2024-07-21 22:16:41,813 - INFO - 127.0.0.1 - - [21/Jul/2024 22:16:41] "[31m[1mPUT /update_record?name=Donlee.L HTTP/1.1[0m" 400 -
+2024-07-21 22:17:00,467 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-21 22:17:00,550 - INFO -  * Restarting with stat
+2024-07-21 22:17:01,804 - WARNING -  * Debugger is active!
+2024-07-21 22:17:01,820 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:17:24,827 - INFO - 127.0.0.1 - - [21/Jul/2024 22:17:24] "[35m[1mPUT /update_record?name=Donlee HTTP/1.1[0m" 500 -
+2024-07-21 22:22:32,254 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 22:22:32,255 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 22:22:32,271 - INFO -  * Restarting with stat
+2024-07-21 22:22:33,683 - WARNING -  * Debugger is active!
+2024-07-21 22:22:33,696 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:22:56,403 - INFO - 127.0.0.1 - - [21/Jul/2024 22:22:56] "[31m[1mPUT /create_user?name=Donlee%20 HTTP/1.1[0m" 405 -
+2024-07-21 22:23:11,190 - INFO - 127.0.0.1 - - [21/Jul/2024 22:23:11] "[35m[1mPOST /create_user?name=Donlee%20 HTTP/1.1[0m" 500 -
+2024-07-21 22:23:41,180 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\utilis\\utility.py', reloading
+2024-07-21 22:23:41,366 - INFO -  * Restarting with stat
+2024-07-21 22:23:42,368 - WARNING -  * Debugger is active!
+2024-07-21 22:23:42,383 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:23:42,455 - INFO - 127.0.0.1 - - [21/Jul/2024 22:23:42] "[35m[1mPOST /create_user?name=Donlee%20 HTTP/1.1[0m" 500 -
+2024-07-21 22:24:42,189 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 22:24:42,190 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 22:24:42,210 - INFO -  * Restarting with stat
+2024-07-21 22:24:43,805 - WARNING -  * Debugger is active!
+2024-07-21 22:24:43,820 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:24:44,531 - INFO - 127.0.0.1 - - [21/Jul/2024 22:24:44] "[35m[1mPOST /create_user?name=Donlee%20 HTTP/1.1[0m" 500 -
+2024-07-21 22:25:09,431 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\utilis\\utility.py', reloading
+2024-07-21 22:25:09,713 - INFO -  * Restarting with stat
+2024-07-21 22:25:11,118 - WARNING -  * Debugger is active!
+2024-07-21 22:25:11,137 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:26:00,323 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 22:26:00,323 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 22:26:00,339 - INFO -  * Restarting with stat
+2024-07-21 22:26:01,777 - WARNING -  * Debugger is active!
+2024-07-21 22:26:01,795 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:26:02,290 - INFO - Donlee  - create_user function has started...
+2024-07-21 22:26:02,290 - ERROR - Unauthorised user= Donlee  detected..
+2024-07-21 22:26:02,291 - INFO - Donlee  - create_user function has ended...
+2024-07-21 22:26:02,291 - INFO - 127.0.0.1 - - [21/Jul/2024 22:26:02] "[31m[1mPOST /create_user?name=Donlee%20 HTTP/1.1[0m" 401 -
+2024-07-21 22:26:34,094 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 22:26:34,094 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 22:26:34,108 - INFO -  * Restarting with stat
+2024-07-21 22:26:35,273 - WARNING -  * Debugger is active!
+2024-07-21 22:26:35,297 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:26:44,164 - INFO - dinesh.A - create_user function has started...
+2024-07-21 22:26:44,164 - INFO - User=dinesh.A authentication successfull
+2024-07-21 22:26:44,165 - ERROR - dinesh.A - does not have create user profile permission
+2024-07-21 22:26:44,165 - ERROR - dinesh.A - does not have create user profile permission
+2024-07-21 22:26:44,165 - INFO - dinesh.A - create_user function has ended...
+2024-07-21 22:26:44,166 - INFO - 127.0.0.1 - - [21/Jul/2024 22:26:44] "[31m[1mPOST /create_user?name=dinesh.A HTTP/1.1[0m" 403 -
+2024-07-21 22:26:51,731 - INFO - Donlee.L - create_user function has started...
+2024-07-21 22:26:51,731 - INFO - User=Donlee.L authentication successfull
+2024-07-21 22:27:08,742 - ERROR - User=jdjjd.d has invalid gender = m
+2024-07-21 22:27:08,742 - ERROR - Donlee.L - Error:-User=jdjjd.d has invalid gender = m
+2024-07-21 22:27:08,742 - INFO - Donlee.L - create_user function has ended...
+2024-07-21 22:27:08,743 - INFO - 127.0.0.1 - - [21/Jul/2024 22:27:08] "[35m[1mPOST /create_user?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-21 22:27:55,151 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 22:27:55,151 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 22:27:55,162 - INFO -  * Restarting with stat
+2024-07-21 22:27:56,513 - WARNING -  * Debugger is active!
+2024-07-21 22:27:56,534 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:29:28,364 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 22:29:28,364 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 22:29:28,370 - INFO -  * Restarting with stat
+2024-07-21 22:29:28,854 - WARNING -  * Debugger is active!
+2024-07-21 22:29:28,861 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:30:04,023 - INFO - Donlee.L - user_info function started...
+2024-07-21 22:30:24,239 - DEBUG - Donlee.L - User=dinesh.A information :- {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}
+2024-07-21 22:30:24,240 - INFO - Donlee.L - user_info function ended...
+2024-07-21 22:30:24,241 - INFO - 127.0.0.1 - - [21/Jul/2024 22:30:24] "GET /user_info?name=Donlee.L HTTP/1.1" 200 -
+2024-07-21 22:33:25,895 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 22:33:25,895 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 22:33:25,901 - INFO -  * Restarting with stat
+2024-07-21 22:33:26,438 - WARNING -  * Debugger is active!
+2024-07-21 22:33:26,446 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:33:28,598 - INFO - Donlee - update_record function has started...
+2024-07-21 22:33:28,598 - ERROR - Unauthorised user= Donlee detected..
+2024-07-21 22:33:28,598 - INFO - Donlee - update_record function has ended...
+2024-07-21 22:33:28,598 - INFO - 127.0.0.1 - - [21/Jul/2024 22:33:28] "[31m[1mPUT /update_record?name=Donlee HTTP/1.1[0m" 401 -
+2024-07-21 22:33:44,478 - INFO - dinesh.A - update_record function has started...
+2024-07-21 22:33:44,478 - INFO - User=dinesh.A authentication successfull
+2024-07-21 22:33:44,478 - ERROR - dinesh.A - does not have update user permission
+2024-07-21 22:33:44,478 - ERROR - dinesh.A - does not have update user permission
+2024-07-21 22:33:44,478 - INFO - dinesh.A - update_record function has ended...
+2024-07-21 22:33:44,479 - INFO - 127.0.0.1 - - [21/Jul/2024 22:33:44] "[31m[1mPUT /update_record?name=dinesh.A HTTP/1.1[0m" 403 -
+2024-07-21 22:33:57,055 - INFO - Donlee.L - update_record function has started...
+2024-07-21 22:33:57,055 - INFO - User=Donlee.L authentication successfull
+2024-07-21 22:34:01,856 - DEBUG - Donlee.L - "Modifying User=dinesh.A record"
+2024-07-21 22:34:01,856 - DEBUG - Donlee.L - "Previous record of User=dinesh.A  is :-" {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}
+2024-07-21 22:34:10,132 - ERROR - User=dhhdjdj has invalid gender = di
+2024-07-21 22:34:10,133 - ERROR - Donlee.L - Error:-User=dhhdjdj has invalid gender = di
+2024-07-21 22:34:10,133 - INFO - Donlee.L - update_record function has ended...
+2024-07-21 22:34:10,133 - INFO - 127.0.0.1 - - [21/Jul/2024 22:34:10] "[35m[1mPUT /update_record?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-21 22:34:41,244 - INFO - Donlee - update_user_record function has started....
+2024-07-21 22:34:41,244 - ERROR - Unauthorised user= Donlee detected..
+2024-07-21 22:34:41,244 - INFO - Donlee - update_user_record function has ended...
+2024-07-21 22:34:41,244 - INFO - 127.0.0.1 - - [21/Jul/2024 22:34:41] "[31m[1mPUT /update_user_record?name=Donlee HTTP/1.1[0m" 401 -
+2024-07-21 22:35:01,857 - INFO - kumar.M - update_user_record function has started....
+2024-07-21 22:35:01,858 - INFO - User=kumar.M authentication successfull
+2024-07-21 22:35:01,858 - DEBUG - kumar.M - has updating his record
+2024-07-21 22:35:13,615 - DEBUG - kumar.M - Before updating the record is= {'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}
+2024-07-21 22:35:13,616 - DEBUG - kumar.M - After user updated his record = {'username': 'makala', 'name': 'kumar.M', 'dept': 'Dev', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}
+2024-07-21 22:35:18,137 - INFO - kumar.M - update_user_record function has ended...
+2024-07-21 22:35:18,138 - INFO - 127.0.0.1 - - [21/Jul/2024 22:35:18] "PUT /update_user_record?name=kumar.M HTTP/1.1" 200 -
+2024-07-21 22:35:32,171 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-21 22:35:32,245 - INFO -  * Restarting with stat
+2024-07-21 22:35:32,806 - WARNING -  * Debugger is active!
+2024-07-21 22:35:32,812 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:36:05,515 - INFO - 127.0.0.1 - - [21/Jul/2024 22:36:05] "[31m[1mPUT /partial_update_record?name=makala HTTP/1.1[0m" 405 -
+2024-07-21 22:36:11,215 - INFO - makala - partial_update_record has started...
+2024-07-21 22:36:11,215 - ERROR - Unauthorised user= makala detected..
+2024-07-21 22:36:11,215 - INFO - makala - partial_update_record function has ended...
+2024-07-21 22:36:11,215 - INFO - 127.0.0.1 - - [21/Jul/2024 22:36:11] "[31m[1mPATCH /partial_update_record?name=makala HTTP/1.1[0m" 401 -
+2024-07-21 22:36:27,314 - INFO - kumar.M - partial_update_record has started...
+2024-07-21 22:36:27,314 - INFO - User=kumar.M authentication successfull
+2024-07-21 22:36:27,314 - ERROR - kumar.M - does not have partially update record permission
+2024-07-21 22:36:27,314 - ERROR - kumar.M - does not have partially update record permission
+2024-07-21 22:36:27,314 - INFO - kumar.M - partial_update_record function has ended...
+2024-07-21 22:36:27,315 - INFO - 127.0.0.1 - - [21/Jul/2024 22:36:27] "[31m[1mPATCH /partial_update_record?name=kumar.M HTTP/1.1[0m" 403 -
+2024-07-21 22:36:44,760 - INFO - Donlee.L - partial_update_record has started...
+2024-07-21 22:36:44,760 - INFO - User=Donlee.L authentication successfull
+2024-07-21 22:36:53,511 - DEBUG - Donlee.L - Partial Modifying "kumar.M" record
+2024-07-21 22:37:02,247 - DEBUG - Donlee.L - Partial Modified "makala" record is :-{'username': 'kumar123', 'name': 'makala', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}
+2024-07-21 22:37:02,248 - INFO - Donlee.L - partial_update_record function has ended...
+2024-07-21 22:37:02,248 - INFO - 127.0.0.1 - - [21/Jul/2024 22:37:02] "PATCH /partial_update_record?name=Donlee.L HTTP/1.1" 200 -
+2024-07-21 22:37:25,184 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-21 22:37:25,233 - INFO -  * Restarting with stat
+2024-07-21 22:37:25,662 - WARNING -  * Debugger is active!
+2024-07-21 22:37:25,669 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:37:40,705 - INFO - djdj - reset_password function has started...
+2024-07-21 22:37:40,705 - ERROR - Unauthorised user= djdj detected..
+2024-07-21 22:37:40,705 - INFO - djdj - reset_password function has ended...
+2024-07-21 22:37:40,706 - INFO - 127.0.0.1 - - [21/Jul/2024 22:37:40] "[31m[1mPATCH /reset_password?name=djdj HTTP/1.1[0m" 401 -
+2024-07-21 22:38:20,299 - INFO - dinesh.A - reset_password function has started...
+2024-07-21 22:38:20,300 - INFO - User=dinesh.A authentication successfull
+2024-07-21 22:38:20,300 - ERROR - dinesh.A - does not have reset password permission
+2024-07-21 22:38:20,300 - ERROR - dinesh.A - does not have reset password permission
+2024-07-21 22:38:20,300 - INFO - dinesh.A - reset_password function has ended...
+2024-07-21 22:38:20,300 - INFO - 127.0.0.1 - - [21/Jul/2024 22:38:20] "[31m[1mPATCH /reset_password?name=dinesh.A HTTP/1.1[0m" 403 -
+2024-07-21 22:40:04,095 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 22:40:04,095 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 22:40:04,100 - INFO -  * Restarting with stat
+2024-07-21 22:40:04,558 - WARNING -  * Debugger is active!
+2024-07-21 22:40:04,565 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 22:40:06,037 - INFO - dinesh.A - user_info function started...
+2024-07-21 22:40:06,037 - INFO - User=dinesh.A authentication successfull
+2024-07-21 22:40:11,515 - DEBUG - dinesh.A - Information :- {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}
+2024-07-21 22:40:11,515 - INFO - dinesh.A - user_info function ended...
+2024-07-21 22:40:11,515 - INFO - 127.0.0.1 - - [21/Jul/2024 22:40:11] "GET /user_info?name=dinesh.A HTTP/1.1" 200 -

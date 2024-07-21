@@ -5,7 +5,9 @@ DATA = {"records": [
     {'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M',
      'password': 'Kumar@123', 'isadmin': False},
     {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M',
-     'password': 'Dinesh&2003', 'isadmin': False}
+     'password': 'Dinesh&2003', 'isadmin': False},
+    {'username': 'donlee1970', 'name': 'Donlee.L', 'dept': 'APP', 'dob': '2002-8-7', 'gender': 'M',
+     'password': 'Donlee@1970', 'isadmin': True}
 ]}
 VALID_GENDER = ["MALE", "FEMALE", "OTHERS", "M", "F"]
 USERS = ["kumar.M", "dinesh.A"]
