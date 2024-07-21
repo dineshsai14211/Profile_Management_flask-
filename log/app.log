@@ -911,3 +911,140 @@
 2024-07-20 22:09:33,181 - INFO -  * Debugger PIN: 133-050-019
 2024-07-20 22:09:52,022 - INFO - Saved Record = {'records': [{'username': 'kumar123', 'name': 'kumar.M', 'dept': 'DEV', 'dob': '2001-2-2', 'gender': 'M', 'password': 'Kumar@123', 'isadmin': False}, {'username': 'dinesh2003', 'name': 'dinesh.A', 'dept': 'APP', 'dob': '2001-2-3', 'gender': 'M', 'password': 'Dinesh&2003', 'isadmin': False}]}
 2024-07-20 22:09:52,026 - INFO - 127.0.0.1 - - [20/Jul/2024 22:09:52] "GET /read_records HTTP/1.1" 200 -
+2024-07-21 17:33:15,096 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 17:33:15,097 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 17:33:15,111 - INFO -  * Restarting with stat
+2024-07-21 17:33:16,138 - WARNING -  * Debugger is active!
+2024-07-21 17:33:16,161 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 17:33:20,421 - INFO - 127.0.0.1 - - [21/Jul/2024 17:33:20] "[31m[1mPOST /create_user?name=Donlee.L HTTP/1.1[0m" 405 -
+2024-07-21 17:34:31,095 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-21 17:34:31,175 - INFO -  * Restarting with stat
+2024-07-21 17:34:32,227 - WARNING -  * Debugger is active!
+2024-07-21 17:34:32,242 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 17:34:32,344 - INFO - 127.0.0.1 - - [21/Jul/2024 17:34:32] "[31m[1mPOST /create_user?name=Donlee.L HTTP/1.1[0m" 405 -
+2024-07-21 17:34:37,907 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 17:34:37,907 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 17:34:37,927 - INFO -  * Restarting with stat
+2024-07-21 17:34:39,416 - WARNING -  * Debugger is active!
+2024-07-21 17:34:39,441 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 17:34:40,736 - INFO - 127.0.0.1 - - [21/Jul/2024 17:34:40] "[31m[1mPOST /create_user?name=Donlee.L HTTP/1.1[0m" 405 -
+2024-07-21 17:35:31,596 - INFO - 127.0.0.1 - - [21/Jul/2024 17:35:31] "[31m[1mPOST /create_user?name=Donlee.L HTTP/1.1[0m" 405 -
+2024-07-21 17:35:41,763 - INFO - 127.0.0.1 - - [21/Jul/2024 17:35:41] "[31m[1mPOST /create_user?name=Donlee.L HTTP/1.1[0m" 405 -
+2024-07-21 17:35:51,499 - INFO - 127.0.0.1 - - [21/Jul/2024 17:35:51] "[31m[1mPOST /create_user HTTP/1.1[0m" 405 -
+2024-07-21 17:36:46,728 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 17:36:46,729 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 17:36:46,740 - INFO -  * Restarting with stat
+2024-07-21 17:36:47,791 - WARNING -  * Debugger is active!
+2024-07-21 17:36:47,804 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 17:36:48,005 - INFO - 127.0.0.1 - - [21/Jul/2024 17:36:48] "[31m[1mPOST /create_user?name=Donlee.L HTTP/1.1[0m" 405 -
+2024-07-21 17:37:39,220 - INFO - 127.0.0.1 - - [21/Jul/2024 17:37:39] "[31m[1mPUT /create_user?name=Donlee.L HTTP/1.1[0m" 405 -
+2024-07-21 17:37:43,993 - INFO - create_user function has started...
+2024-07-21 17:38:08,803 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 17:38:08,804 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 17:38:08,822 - INFO -  * Restarting with stat
+2024-07-21 17:38:10,006 - WARNING -  * Debugger is active!
+2024-07-21 17:38:10,022 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 17:38:10,949 - INFO - 127.0.0.1 - - [21/Jul/2024 17:38:10] "[35m[1mGET /create_user?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-21 17:39:04,997 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 17:39:04,998 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 17:39:05,011 - INFO -  * Restarting with stat
+2024-07-21 17:39:06,259 - WARNING -  * Debugger is active!
+2024-07-21 17:39:06,286 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 17:39:06,373 - INFO - User=Donlee.L authentication successfull
+2024-07-21 17:39:06,407 - INFO - 127.0.0.1 - - [21/Jul/2024 17:39:06] "[35m[1mGET /create_user?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-21 17:40:04,086 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 17:40:04,088 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 17:40:04,099 - INFO -  * Restarting with stat
+2024-07-21 17:40:05,168 - WARNING -  * Debugger is active!
+2024-07-21 17:40:05,183 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 17:40:05,260 - INFO - User=Donlee.L authentication successfull
+2024-07-21 17:40:05,260 - INFO - create_user function has started...
+2024-07-21 17:40:18,195 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 17:40:18,195 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 17:40:18,209 - INFO -  * Restarting with stat
+2024-07-21 17:40:19,293 - WARNING -  * Debugger is active!
+2024-07-21 17:40:19,312 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 17:40:22,551 - INFO - 127.0.0.1 - - [21/Jul/2024 17:40:22] "[35m[1mGET /create_user?name=Donlee HTTP/1.1[0m" 500 -
+2024-07-21 17:53:29,304 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 17:53:29,306 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 17:53:29,321 - INFO -  * Restarting with stat
+2024-07-21 17:53:30,444 - WARNING -  * Debugger is active!
+2024-07-21 17:53:30,463 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 17:53:34,520 - INFO - 127.0.0.1 - - [21/Jul/2024 17:53:34] "[35m[1mPOST /create_user?name=Donlee HTTP/1.1[0m" 500 -
+2024-07-21 17:53:45,394 - INFO - User=Donlee.L authentication successfull
+2024-07-21 17:53:45,394 - INFO - create_user function has started...
+2024-07-21 17:58:15,261 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 17:58:15,261 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 17:58:15,273 - INFO -  * Restarting with stat
+2024-07-21 17:58:16,538 - WARNING -  * Debugger is active!
+2024-07-21 17:58:16,554 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 17:58:18,347 - INFO - User=Donlee.L authentication successfull
+2024-07-21 17:58:18,347 - INFO - create_user function has started...
+2024-07-21 17:58:42,519 - DEBUG - Admin - Donlee.L has created the normal user
+2024-07-21 17:58:47,292 - DEBUG - jfjffk.jd - record added..
+2024-07-21 17:58:47,315 - INFO - 127.0.0.1 - - [21/Jul/2024 17:58:47] "[35m[1mPOST /create_user?name=Donlee.L HTTP/1.1[0m" 500 -
+2024-07-21 17:59:33,369 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\utilis\\utility.py', reloading
+2024-07-21 17:59:33,613 - INFO -  * Restarting with stat
+2024-07-21 17:59:34,660 - WARNING -  * Debugger is active!
+2024-07-21 17:59:34,676 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 17:59:35,817 - INFO - User=Donlee.L authentication successfull
+2024-07-21 17:59:35,818 - INFO - create_user function has started...
+2024-07-21 17:59:57,507 - DEBUG - Admin - Donlee.L has created the normal user
+2024-07-21 18:00:02,814 - DEBUG - skkdkdk.j - record added..
+2024-07-21 18:00:02,816 - INFO - 127.0.0.1 - - [21/Jul/2024 18:00:02] "POST /create_user?name=Donlee.L HTTP/1.1" 200 -
+2024-07-21 18:02:39,182 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 18:02:39,183 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 18:02:39,195 - INFO -  * Restarting with stat
+2024-07-21 18:02:40,165 - WARNING -  * Debugger is active!
+2024-07-21 18:02:40,181 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 18:02:43,828 - INFO - User=Donlee.L authentication successfull
+2024-07-21 18:02:43,828 - INFO - create_user function has started...
+2024-07-21 18:02:49,763 - ERROR - Incorrect role choosen - available options are normal and admin only
+2024-07-21 18:02:49,763 - INFO - create_user function has ended...
+2024-07-21 18:02:49,764 - INFO - 127.0.0.1 - - [21/Jul/2024 18:02:49] "[31m[1mPOST /create_user?name=Donlee.L HTTP/1.1[0m" 400 -
+2024-07-21 18:03:14,484 - INFO - User=Donlee.L authentication successfull
+2024-07-21 18:03:14,484 - INFO - create_user function has started...
+2024-07-21 18:03:42,943 - DEBUG - Admin - Donlee.L has created the normal user
+2024-07-21 18:03:48,075 - DEBUG - jdjde.M - record added..
+2024-07-21 18:03:48,076 - ERROR - app.json.response() takes either args or kwargs, not both
+2024-07-21 18:03:48,076 - INFO - create_user function has ended...
+2024-07-21 18:03:48,078 - INFO - 127.0.0.1 - - [21/Jul/2024 18:03:48] "[31m[1mPOST /create_user?name=Donlee.L HTTP/1.1[0m" 400 -
+2024-07-21 18:07:52,122 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 18:07:52,123 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 18:07:52,133 - INFO -  * Restarting with stat
+2024-07-21 18:07:53,084 - WARNING -  * Debugger is active!
+2024-07-21 18:07:53,100 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 18:07:56,920 - INFO - User=Donlee.L authentication successfull
+2024-07-21 18:07:56,920 - INFO - create_user function has started...
+2024-07-21 18:08:14,904 - DEBUG - Admin - Donlee.L has created the normal user
+2024-07-21 18:08:19,531 - DEBUG - sjkdk.j - record added..
+2024-07-21 18:08:19,533 - ERROR - unsupported operand type(s) for +: 'set' and 'str'
+2024-07-21 18:08:19,534 - INFO - create_user function has ended...
+2024-07-21 18:08:19,535 - INFO - 127.0.0.1 - - [21/Jul/2024 18:08:19] "[31m[1mPOST /create_user?name=Donlee.L HTTP/1.1[0m" 400 -
+2024-07-21 18:08:44,717 - INFO -  * Detected change in 'C:\\Users\\Dinesh Sai\\Documents\\Job Training\\Flask applications\\Profile-Management\\apps\\app.py', reloading
+2024-07-21 18:08:44,806 - INFO -  * Restarting with stat
+2024-07-21 18:08:45,984 - WARNING -  * Debugger is active!
+2024-07-21 18:08:46,002 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 18:08:46,507 - INFO - User=Donlee.L authentication successfull
+2024-07-21 18:08:46,508 - INFO - create_user function has started...
+2024-07-21 18:09:10,248 - DEBUG - Admin - Donlee.L has created the normal user
+2024-07-21 18:09:15,216 - DEBUG - jdjjnjd.jd - record added..
+2024-07-21 18:09:15,217 - INFO - 127.0.0.1 - - [21/Jul/2024 18:09:15] "POST /create_user?name=Donlee.L HTTP/1.1" 200 -
+2024-07-21 18:12:24,819 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-21 18:12:24,819 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-21 18:12:24,831 - INFO -  * Restarting with stat
+2024-07-21 18:12:25,953 - WARNING -  * Debugger is active!
+2024-07-21 18:12:25,970 - INFO -  * Debugger PIN: 133-050-019
+2024-07-21 18:12:28,727 - INFO - 127.0.0.1 - - [21/Jul/2024 18:12:28] "[35m[1mPOST /create_user?name=Donlee HTTP/1.1[0m" 500 -

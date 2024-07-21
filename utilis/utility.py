@@ -2,6 +2,8 @@ from datetime import datetime
 import re
 from apps.constants import *
 from log.logging_logic import *
+from custom_exceptions.exceptions import *
+from flask import request
 
 
 def is_valid_name(name):
@@ -100,10 +102,12 @@ def authenticate_user(name):
 
 
 def authenticate(fun):
-    def wrapper(name):
+    def wrapper():
+        data = request.args
+        name = data.get("name")
         if not authenticate_user(name):
-            raise PermissionError(f"Unauthorised user {name} detected..")
-        fun(name)
+            raise AuthenticationError(f"Unauthorised user= {name} detected..")
+        return fun()
 
     return wrapper
 

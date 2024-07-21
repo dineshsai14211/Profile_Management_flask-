@@ -12,9 +12,11 @@ USERS = ["kumar.M", "dinesh.A"]
 ADMINS = ["Donlee.L"]
 ALL_USERS = ["kumar.M", "dinesh.A", "Donlee.L"]
 
-ADMIN_CONSOLE = f"Which Operation you need to perform \n1)Create User \n2)Update Record \n3)Partially Update Record \n4)Check specify user info \n5)Delete Record \n6)Reset User password \n7)Read Records \n8)Exit \n Choose from above option:- "
-
-USER_CONSOLE = f'Which operation need to perform \n1)Create User \n2)Update your record \n3)Check your Info \n4)Read Record \n5)Exit \n Choose from above options :- '
+# create_user constant values
+ADMIN = "admin"
+NORMAL = "normal"
+SUCCESS = "success"
+FAILED = "failed"
 
 # emails configurations
 SMTP_PORT = 587
